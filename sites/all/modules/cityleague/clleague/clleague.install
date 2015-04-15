@@ -1,0 +1,183 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the clleague module.
+ */
+
+ /**
+ * Implements hook_install().
+ */
+function clleague_uninstall() {
+	clleague_delete_user_fields();
+	
+	//clleague_delete_roles();
+}
+
+/**
+ * Implements hook_install().
+ */
+function clleague_install() {
+	//clleague_create_roles();
+	
+	clleague_create_user_fields();
+	clleague_create_user_field_instances();
+}
+
+/**
+ * Implements hook_schema().
+ */
+function clleague_schema() {
+	$schema['league_participants'] = array(
+		'description' => 'The table containing the participants for each cityleague.',
+		'fields' => array(
+			'pid'       => array('type' => 'serial', 'unsigned' => TRUE, 'not null' => TRUE),
+			'nid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),
+			'uid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => FALSE),
+			'nickname'  => array('type' => 'varchar', 'length' => 40, 'not null' => TRUE),
+			'level'     => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),	
+			'timestamp' => array('type' => 'int', 'not null' => TRUE, 'unsigned' => TRUE),
+    	),
+		'primary key' => array('pid'),
+	);
+	
+	return $schema;
+}
+/*
+function clleague_create_roles() {
+	$coordinator = new stdClass();
+	$coordinator->name = 'Cityleague coordinator';
+	user_role_save($coordinator);
+}
+
+function clleague_delete_roles() {
+	user_role_delete('Cityleague coordinator');
+}
+*/
+
+function clleague_create_user_fields() {
+	foreach (_clleague_user_fields() as $field) {
+		if (!field_info_field($field['field_name'])) {
+			field_create_field($field); 
+		}
+	}
+}
+
+function clleague_create_user_field_instances() {
+	foreach (_clleague_user_field_instances() as $instance) {
+		$existing_instance = field_read_instance($instance['entity_type'], $instance['field_name'], $instance['bundle']);
+		if (empty($existing_instance)) {
+			field_create_instance($instance); 
+		}
+	}
+}
+
+function clleague_delete_user_fields() {
+	foreach (_clleague_user_fields() as $field) {
+		if (field_info_field($field['field_name'])) {
+			field_delete_field($field); 
+		}
+	}
+}
+
+function _clleague_user_fields() {
+	return array(
+		'field_subscribe' => array(
+			'field_name' => 'field_subscribe', 
+			'type' => 'list_boolean',
+			'required' => TRUE,
+			'settings' => array(
+				'allowed_values' => array(
+					'No, receive no cityleague related messages by email',
+					'Receive cityleague related messages by email', 
+				),
+			),
+		),
+		'field_last_used_level' => array(
+			'field_name' => 'field_last_used_level', 
+			'type' => 'list_integer',
+			'settings' => array(
+				'allowed_values' => array(
+					1 => '1 - New', 
+					2 => '2 - Novice', 
+					3 => '3 - Average', 
+					4 => '4 - Good', 
+					5 => '5 - Really good', 
+				),
+			),
+		),
+		'field_last_used_nickname' => array(
+			'field_name' => 'field_last_used_nickname', 
+			'type' => 'text',
+			'settings' => array(
+				'max_length' => 40,
+			),
+		),		
+	);
+}
+
+
+function _clleague_user_field_instances() {
+	return array(
+		'field_last_used_level' => array(
+			'field_name' => 'field_last_used_level', 
+			'entity_type' => 'user', 
+			'label' => 'Level', 
+			'bundle' => 'user', 
+			'required' => TRUE,
+			'description' => 'Level of Ultimate experience/skill.',
+			'widget' => array(
+				'type' => 'options_select', 
+			), 
+			'settings' => array(
+				'user_register_form' => 1, // Here you inform either or not you want this field showing up on the registration form.
+			),
+			'display' => array(
+				'default' => array(
+					'type' => 'hidden', 
+				), 
+			),
+		),
+		'field_last_used_nickname' => array(
+			'field_name' => 'field_last_used_nickname', 
+			'entity_type' => 'user', 
+			'label' => 'Player name', 
+			'bundle' => 'user', 
+			'required' => TRUE,
+			'description' => 'The (nick)name used within the cityleague.',
+			'widget' => array(
+				'type' => ' text_textfield', 
+			), 
+			'settings' => array(
+				'user_register_form' => 1, // Here you inform either or not you want this field showing up on the registration form.
+			),
+			'display' => array(
+				'default' => array(
+					'type' => 'hidden', 
+				), 
+			),
+		),
+		'field_subscribe' => array(
+			'field_name' => 'field_subscribe', 
+			'entity_type' => 'user', 
+			'label' => 'Receive cityleague related messages by email', 
+			'bundle' => 'user', 
+			'required' => FALSE,
+			'widget' => array(
+				'type' => 'options_onoff', 
+			), 
+			'settings' => array(
+				'user_register_form' => 1, // Here you inform either or not you want this field showing up on the registration form.
+			),
+			'display' => array(
+				'default' => array(
+					'type' => 'list_default', 
+					'label' => 'left',
+				), 
+			),
+			'default_value' => array(1),
+		),
+	);		
+}
+
+
+

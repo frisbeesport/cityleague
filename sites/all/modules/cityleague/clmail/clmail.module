@@ -1,0 +1,104 @@
+<?php
+
+module_load_include('inc', 'clmail', 'clmail.sendmail');
+/**
+ * @file
+ * Module file for Cityleague Mail module.
+ */
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                                 Menu
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** 
+ * Implements hook_menu().
+ */
+function clmail_menu() {
+ 
+	// Unsubscribe page
+	$items["user/%user/unsubscribe/%"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Unsubscribe for e-mail',
+		'page callback' => 'clmail_unsubscribe_page',
+		'page arguments' => array(1, 3),
+		'access callback' => 'clmail_unsubscribe_access',
+		'access arguments' => array(),
+		'file' => 'clmail.unsubscribe.inc',
+	);
+	
+    // Mail form for organizers to mail all participants
+	$items["node/%node/mail"] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'Mail players',
+		'page callback' => 'clmail_sendmail_page',
+		'page arguments' => array(1),
+		'access callback' => 'clmail_sendmail_access',
+		'access arguments' => array(1),
+		'file' => 'clmail.sendmail.inc',
+	);
+	
+	// Page that lists all participant email address
+	$items["node/%node/mail/addresses"] = array(
+		'type' => MENU_LOCAL_ACTION,
+		'title' => 'Export email addresses',
+		'page callback' => 'clmail_addresses_page',
+		'page arguments' => array(1),
+		'access callback' => 'clmail_addresses_access',
+		'access arguments' => array(1),
+		'file' => 'clmail.addresses.inc',
+	);
+	
+	return $items;
+}
+
+function clmail_unsubscribe_access() {
+	return user_access('access content'); 
+}
+
+function clmail_addresses_access($node) {
+	global $user;
+
+	return clleague_access_level_organizer($user, $node);
+}
+
+function clmail_sendmail_access($node) {
+	global $user;
+
+	return clleague_access_level_organizer($user, $node);
+}
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                        Miscellaneous
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** 
+ * Implements hook_mail().
+ */
+function clmail_mail($key, &$message, $params) {
+	$headers = array(
+		'MIME-Version' => '1.0',
+		'Content-Type' => 'text/plain; charset=UTF-8',
+		'Content-Transfer-Encoding' => '8Bit',
+		'X-Mailer' => 'Drupal'
+	);
+
+	foreach ($headers as $key => $value) {
+		$message['headers'][$key] = $value;
+	}
+
+	$message['subject'] = $params['subject'];
+	$message['body'] = $params['body'];
+}
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                              Helpers
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function clmail_unsubscribe_hash($user) {
+	$hashstring = $user->mail . $user->uid . $user->name;
+	$hash = drupal_hash_base64($hashstring) ;
+
+	return $hash;
+}
+

@@ -1,0 +1,24 @@
+<div class="btn-group">
+  <a class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" href="#">Login <b class="caret"> </b></a>
+  <ul id="dropdown-login" class="dropdown-menu">
+    <form action="http://localhost/fabrykagier/auth/login" method="post" accept-charset="UTF-8">
+      <div class="control-group">
+        <input class="form-control" id="user_username" type="text" name="identity" size="30" placeholder="emailadres">
+      </div>
+      <div class="control-group">
+        <input class="form-control" id="user_password" type="password" name="password" placeholder="password" size="30">
+      </div>
+
+      <div class="control-group">
+        <button type="submit" class="form-control btn btn-primary" >
+          <i class="glyphicon glyphicon-log-in"></i>&nbsp;  Log in
+        </button>
+      </div>
+      <div class="control-group">
+        <button type="submit" class="form-control" >
+        Request password
+        </button>
+      </div>
+    </form>
+  </ul>
+</div>

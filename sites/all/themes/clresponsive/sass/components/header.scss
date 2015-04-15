@@ -1,0 +1,54 @@
+/* Header */
+
+.header-top {
+  margin-top: 10px;   
+}
+
+header nav {
+  position:absolute; 
+  bottom:10px; 
+  right:0px;
+
+}
+
+header .nav li a,
+header .dropdown-menu li a {
+  color: #222;
+}
+
+header .nav li a:hover, 
+header .nav li a:focus,
+header .dropdown-menu li a:hover,
+header .dropdown-menu li a:focus,
+header .nav .open a, 
+header .nav .open a:hover,
+header .nav .open a:focus,
+header .nav-pills li.active a:hover,
+header .nav-pills li.active a:focus {
+  text-decoration: none;
+  background-color: #ee1c25;
+  color: #fff;
+}
+
+header .nav-pills li.active,
+header .nav-pills li.active a
+ {
+  background-color: #FFF;
+  color: #222;
+}
+
+.header {
+  position: relative;
+  display: table;
+  
+}
+
+h1.logo {
+  float: left;
+  margin: 5px 0px 10px 0px;
+  width: 25%;
+}
+
+h1.logo img {
+   width: 100%;
+}

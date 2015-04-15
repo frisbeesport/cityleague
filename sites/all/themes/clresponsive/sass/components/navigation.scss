@@ -1,0 +1,26 @@
+.dropdown-menu {
+  right: 0px;  
+  left: initial;
+}
+
+.nav-tabs {
+  margin: 8px 0px 15px 0px;
+}
+
+/* Navigation Menu */
+
+.nav a:hover .caret {
+	 border-top-color: #fff;
+}
+
+.nav .open>a .caret {
+	 border-top-color: #fff;
+}
+
+.nav .open>a:focus .caret {
+	 border-top-color: #fff;
+}
+
+.nav a .caret {
+	 border-top-color: #000;
+}

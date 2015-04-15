@@ -1,0 +1,808 @@
+# $Id$
+#
+# Dutch translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  theme/menu/menu-local-tasks.func.php: n/a
+#  clresponsive.info: n/a
+#  templates/maintenance-page.tpl.php: n/a
+#  templates_old/maintenance-page.tpl.php: n/a
+#  theme/system/page.tpl.php: n/a
+#  templates/node--article.tpl.php: n/a
+#  templates_old/node--article.tpl.php: n/a
+#  templates/node--league.tpl.php: n/a
+#  templates_old/node--league.tpl.php: n/a
+#  theme/alter.inc: n/a
+#  theme/common.inc: n/a
+#  theme/bootstrap/bootstrap-search-form-wrapper.func.php: n/a
+#  theme/system/button.vars.php: n/a
+#  theme/icons.inc: n/a
+#  theme/registry.inc: n/a
+#  theme/settings.inc: n/a
+#  theme/block/block-admin-display-form.tpl.php: n/a
+#  theme/menu/menu-local-task.func.php: n/a
+#  theme/search/search-block-form.tpl.php: n/a
+#  theme/system/form-element-label.func.php: n/a
+#  theme/system/html.tpl.php: n/a
+#  theme/system/pager.func.php: n/a
+#  theme/system/status-messages.func.php: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-03-24 21:28+0100\n"
+"PO-Revision-Date: 2014-03-24 21:34+0100\n"
+"Last-Translator: Ron van Kesteren <cityleague@frisbeesport.nl>\n"
+"Language-Team: Dutch <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: template.php:34 theme/menu/menu-local-tasks.func.php:21
+msgid "Secondary tabs"
+msgstr "Secundaire tabs"
+
+#: clresponsive.info:0
+msgid "clresponse"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Responsive theme for the Cityleague website"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Header"
+msgstr "Kop"
+
+#: clresponsive.info:0
+msgid "Help"
+msgstr "Help"
+
+#: clresponsive.info:0
+msgid "Top bar"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Menu bar"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Submenu bar"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Action Box"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Highlighted"
+msgstr "Geaccentueerd"
+
+#: clresponsive.info:0
+msgid "Content"
+msgstr "Inhoud"
+
+#: clresponsive.info:0
+msgid "Secondary Content"
+msgstr ""
+
+#: clresponsive.info:0
+msgid "Footer"
+msgstr "Voet"
+
+#: templates/maintenance-page.tpl.php:34;35;45;49
+#: templates_old/maintenance-page.tpl.php:34;35;45;49
+#: theme/system/page.tpl.php:80;81;86
+msgid "Home"
+msgstr "Home"
+
+#: templates/node--article.tpl.php:115 templates_old/node--article.tpl.php:115
+msgid "Read more..."
+msgstr "Lees meer..."
+
+#: templates/node--league.tpl.php:152 templates_old/node--league.tpl.php:152
+msgid "About us"
+msgstr "Over ons"
+
+#: templates/node--league.tpl.php:159 templates_old/node--league.tpl.php:159
+msgid "Play on!"
+msgstr "Play on!"
+
+#: templates/node--league.tpl.php:166 templates_old/node--league.tpl.php:166
+msgid "Partners"
+msgstr "Partners"
+
+#: theme/alter.inc:126;133 theme/common.inc:173
+#: theme/bootstrap/bootstrap-search-form-wrapper.func.php:20
+#: theme/system/button.vars.php:50
+msgid "Search"
+msgstr "Zoeken"
+
+#: theme/common.inc:155 theme/system/button.vars.php:32
+msgid "Download feature"
+msgstr ""
+
+#: theme/common.inc:158 theme/system/button.vars.php:35
+msgid "Add effect"
+msgstr "Effect toevoegen"
+
+#: theme/common.inc:159 theme/system/button.vars.php:36
+msgid "Add and configure"
+msgstr ""
+
+#: theme/common.inc:162 theme/system/button.vars.php:39
+msgid "Save and add"
+msgstr ""
+
+#: theme/common.inc:163 theme/system/button.vars.php:40
+msgid "Add another item"
+msgstr "Item toevoegen"
+
+#: theme/common.inc:164 theme/system/button.vars.php:41
+msgid "Update style"
+msgstr "Stijl bijwerken"
+
+#: theme/common.inc:170 theme/system/button.vars.php:47
+msgid "Save"
+msgstr "Opslaan"
+
+#: theme/common.inc:171 theme/system/button.vars.php:48
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: theme/common.inc:172 theme/system/button.vars.php:49
+msgid "Submit"
+msgstr ""
+
+#: theme/common.inc:176;245 theme/system/button.vars.php:53
+msgid "Add"
+msgstr "Toevoegen"
+
+#: theme/common.inc:177 theme/system/button.vars.php:54
+msgid "Create"
+msgstr "Aanmaken"
+
+#: theme/common.inc:178;246 theme/system/button.vars.php:55
+msgid "Write"
+msgstr ""
+
+#: theme/common.inc:181;236 theme/system/button.vars.php:58
+msgid "Export"
+msgstr "Exporteren"
+
+#: theme/common.inc:182;239 theme/system/button.vars.php:59
+msgid "Import"
+msgstr "Importeren"
+
+#: theme/common.inc:183 theme/system/button.vars.php:60
+msgid "Restore"
+msgstr ""
+
+#: theme/common.inc:184 theme/system/button.vars.php:61
+msgid "Rebuild"
+msgstr ""
+
+#: theme/common.inc:187 theme/system/button.vars.php:64
+msgid "Apply"
+msgstr "Toepassen"
+
+#: theme/common.inc:188 theme/system/button.vars.php:65
+msgid "Update"
+msgstr "Bijwerken"
+
+#: theme/common.inc:191;249 theme/system/button.vars.php:68
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: theme/common.inc:192;250 theme/system/button.vars.php:69
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: theme/common.inc:229
+msgid "Manage"
+msgstr ""
+
+#: theme/common.inc:230
+msgid "Configure"
+msgstr "Instellen"
+
+#: theme/common.inc:233
+msgid "Download"
+msgstr "Downloaden"
+
+#: theme/common.inc:242
+msgid "Edit"
+msgstr "Bewerken"
+
+#: theme/common.inc:253
+msgid "Upload"
+msgstr "Uploaden"
+
+#: theme/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] "1 jaar"
+msgstr[1] "@count jaar"
+
+#: theme/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] "1 week"
+msgstr[1] "@count weken"
+
+#: theme/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] "1 dag"
+msgstr[1] "@count dagen"
+
+#: theme/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] "1 uur"
+msgstr[1] "@count uur"
+
+#: theme/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] "1 min"
+msgstr[1] "@count min"
+
+#: theme/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] "1 sec"
+msgstr[1] "@count sec"
+
+#: theme/common.inc:0
+msgid "1 month"
+msgid_plural "@count months"
+msgstr[0] "1 maand"
+msgstr[1] "@count maanden"
+
+#: theme/icons.inc:14;31
+msgid "Bootstrap"
+msgstr ""
+
+#: theme/icons.inc:32
+msgid "Icons by Glyphicons"
+msgstr ""
+
+#: theme/icons.inc:34
+msgid "White"
+msgstr ""
+
+#: theme/registry.inc:61
+msgid ""
+"For easier theme development, the theme registry is being rebuilt on every "
+"page request. It is <em>extremely</em> important to <a href=\"!link\">turn "
+"off this feature</a> on production websites."
+msgstr ""
+
+#: theme/settings.inc:32
+msgid ""
+"jQuery Update is not enabled, Bootstrap requires a minimum jQuery version of "
+"1.7 or higher.<br/>Please enable <a href=\"https://drupal.org/project/"
+"jquery_update\">jQuery Update module</a> 7.x-2.3 or higher, you must "
+"manually set this in the configuration after it is installed."
+msgstr ""
+
+#: theme/settings.inc:38
+msgid "Override Global Settings"
+msgstr ""
+
+#: theme/settings.inc:56
+msgid "Bootstrap Settings"
+msgstr ""
+
+#: theme/settings.inc:63
+msgid "Components"
+msgstr ""
+
+#: theme/settings.inc:69
+msgid "Breadcrumbs"
+msgstr ""
+
+#: theme/settings.inc:75
+msgid "Breadcrumb visibility"
+msgstr ""
+
+#: theme/settings.inc:78
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: theme/settings.inc:79
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: theme/settings.inc:80
+msgid "Only in admin areas"
+msgstr ""
+
+#: theme/settings.inc:85
+msgid "Show \"Home\" breadcrumb link"
+msgstr ""
+
+#: theme/settings.inc:87
+msgid ""
+"If your site has a module dedicated to handling breadcrumbs already, ensure "
+"this setting is enabled."
+msgstr ""
+
+#: theme/settings.inc:96
+msgid "Show current page title at end"
+msgstr ""
+
+#: theme/settings.inc:98
+msgid ""
+"If your site has a module dedicated to handling breadcrumbs already, ensure "
+"this setting is disabled."
+msgstr ""
+
+#: theme/settings.inc:108
+msgid "Navbar"
+msgstr ""
+
+#: theme/settings.inc:114
+msgid "Navbar Position"
+msgstr ""
+
+#: theme/settings.inc:115
+msgid "Select your Navbar position."
+msgstr ""
+
+#: theme/settings.inc:118
+msgid "Static Top"
+msgstr ""
+
+#: theme/settings.inc:119
+msgid "Fixed Top"
+msgstr ""
+
+#: theme/settings.inc:120
+msgid "Fixed Bottom"
+msgstr ""
+
+#: theme/settings.inc:122
+msgid "Normal"
+msgstr ""
+
+#: theme/settings.inc:126
+msgid "Inverse navbar style"
+msgstr ""
+
+#: theme/settings.inc:127
+msgid "Select if you want the inverse navbar style."
+msgstr ""
+
+#: theme/settings.inc:133
+msgid "None"
+msgstr "Geen"
+
+#: theme/settings.inc:134
+msgid ".well (normal)"
+msgstr ""
+
+#: theme/settings.inc:135
+msgid ".well-sm (small)"
+msgstr ""
+
+#: theme/settings.inc:136
+msgid ".well-lg (large)"
+msgstr ""
+
+#: theme/settings.inc:140
+msgid "Region wells"
+msgstr ""
+
+#: theme/settings.inc:141
+msgid ""
+"Enable the <code>.well</code>, <code>.well-sm</code> or <code>.well-lg</"
+"code> classes for specified regions. See: documentation on !wells."
+msgstr ""
+
+#: theme/settings.inc:142
+msgid "Bootstrap Wells"
+msgstr ""
+
+#: theme/settings.inc:162
+msgid "JavaScript"
+msgstr ""
+
+#: theme/settings.inc:168
+msgid "Anchors"
+msgstr ""
+
+#: theme/settings.inc:174
+msgid "Fix anchor positions"
+msgstr ""
+
+#: theme/settings.inc:176
+msgid ""
+"Ensures anchors are correctly positioned only when there is margin or "
+"padding detected on the BODY element. This is useful when fixed navbar or "
+"administration menus are used."
+msgstr ""
+
+#: theme/settings.inc:180
+msgid "Enable smooth scrolling"
+msgstr ""
+
+#: theme/settings.inc:182
+msgid ""
+"Animates page by scrolling to an anchor link target smoothly when clicked."
+msgstr ""
+
+#: theme/settings.inc:192
+msgid "Popovers"
+msgstr ""
+
+#: theme/settings.inc:193
+msgid ""
+"Add small overlays of content, like those on the iPad, to any element for "
+"housing secondary information."
+msgstr ""
+
+#: theme/settings.inc:199
+msgid "Enable popovers."
+msgstr ""
+
+#: theme/settings.inc:200
+msgid ""
+"Elements that have the !code attribute set will automatically initialize the "
+"popover upon page load. !warning"
+msgstr ""
+
+#: theme/settings.inc:208;327
+msgid "Options"
+msgstr "Opties"
+
+#: theme/settings.inc:209
+msgid ""
+"These are global options. Each popover can independently override desired "
+"settings by appending the option name to !data. Example: !data-animation."
+msgstr ""
+
+#: theme/settings.inc:223;342
+msgid "animate"
+msgstr ""
+
+#: theme/settings.inc:224
+msgid "Apply a CSS fade transition to the popover."
+msgstr ""
+
+#: theme/settings.inc:229;348
+msgid "HTML"
+msgstr ""
+
+#: theme/settings.inc:230
+msgid ""
+"Insert HTML into the popover. If false, jQuery's text method will be used to "
+"insert content into the DOM. Use text if you're worried about XSS attacks."
+msgstr ""
+
+#: theme/settings.inc:235;354
+msgid "placement"
+msgstr ""
+
+#: theme/settings.inc:236
+msgid ""
+"Where to position the popover. When \"auto\" is specified, it will "
+"dynamically reorient the popover. For example, if placement is \"auto left"
+"\", the popover will display to the left when possible, otherwise it will "
+"display right."
+msgstr ""
+
+#: theme/settings.inc:252;371
+msgid "selector"
+msgstr ""
+
+#: theme/settings.inc:253
+msgid ""
+"If a selector is provided, tooltip objects will be delegated to the "
+"specified targets. In practice, this is used to enable dynamic HTML content "
+"to have popovers added. See !this and !example."
+msgstr ""
+
+#: theme/settings.inc:254
+msgid "this"
+msgstr ""
+
+#: theme/settings.inc:255
+msgid "an informative example"
+msgstr ""
+
+#: theme/settings.inc:261;377
+msgid "trigger"
+msgstr ""
+
+#: theme/settings.inc:262
+msgid "How a popover is triggered."
+msgstr ""
+
+#: theme/settings.inc:273
+msgid "title"
+msgstr ""
+
+#: theme/settings.inc:274
+msgid "Default title value if \"title\" attribute isn't present."
+msgstr ""
+
+#: theme/settings.inc:279
+msgid "content"
+msgstr "inhoud"
+
+#: theme/settings.inc:280
+msgid "Default content value if \"data-content\" attribute isn't present."
+msgstr ""
+
+#: theme/settings.inc:285;389
+msgid "delay"
+msgstr ""
+
+#: theme/settings.inc:286
+msgid ""
+"The amount of time to delay showing and hiding the popover (in "
+"milliseconds). Does not apply to manual trigger type."
+msgstr ""
+
+#: theme/settings.inc:291;395
+msgid "container"
+msgstr ""
+
+#: theme/settings.inc:292
+msgid ""
+"Appends the popover to a specific element. Example: \"body\". This option is "
+"particularly useful in that it allows you to position the popover in the "
+"flow of the document near the triggering element - which will prevent the "
+"popover from floating away from the triggering element during a window "
+"resize."
+msgstr ""
+
+#: theme/settings.inc:298
+msgid "Tooltips"
+msgstr ""
+
+#: theme/settings.inc:299
+msgid ""
+"Inspired by the excellent jQuery.tipsy plugin written by Jason Frame; "
+"Tooltips are an updated version, which don't rely on images, use CSS3 for "
+"animations, and data-attributes for local title storage. See !link for more "
+"documentation."
+msgstr ""
+
+#: theme/settings.inc:300
+msgid "Bootstrap tooltips"
+msgstr ""
+
+#: theme/settings.inc:307
+msgid "Enable tooltips"
+msgstr ""
+
+#: theme/settings.inc:308
+msgid ""
+"Elements that have the !code attribute set will automatically initialize the "
+"tooltip upon page load. !warning"
+msgstr ""
+
+#: theme/settings.inc:316
+msgid "Convert simple form descriptions"
+msgstr ""
+
+#: theme/settings.inc:317
+msgid ""
+"Form items that contain simple descriptions (no HTML and shorter than 200 "
+"characters) will be converted into tooltips. This helps reduce the sometimes "
+"unnecessary noise of form item descriptions. By treating descriptions that "
+"contain longer text or HTML as actionable descriptions, we ensure it is "
+"always visible so its usability remains intact."
+msgstr ""
+
+#: theme/settings.inc:328
+msgid ""
+"These are global options. Each tooltip can independently override desired "
+"settings by appending the option name to !data. Example: !data-animation."
+msgstr ""
+
+#: theme/settings.inc:343
+msgid "Apply a CSS fade transition to the tooltip."
+msgstr ""
+
+#: theme/settings.inc:349
+msgid ""
+"Insert HTML into the tooltip. If false, jQuery's text method will be used to "
+"insert content into the DOM. Use text if you're worried about XSS attacks."
+msgstr ""
+
+#: theme/settings.inc:355
+msgid ""
+"Where to position the tooltip. When \"auto\" is specified, it will "
+"dynamically reorient the tooltip. For example, if placement is \"auto left"
+"\", the tooltip will display to the left when possible, otherwise it will "
+"display right."
+msgstr ""
+
+#: theme/settings.inc:372
+msgid ""
+"If a selector is provided, tooltip objects will be delegated to the "
+"specified targets."
+msgstr ""
+
+#: theme/settings.inc:378
+msgid "How a tooltip is triggered."
+msgstr ""
+
+#: theme/settings.inc:390
+msgid ""
+"The amount of time to delay showing and hiding the tooltip (in "
+"milliseconds). Does not apply to manual trigger type."
+msgstr ""
+
+#: theme/settings.inc:396
+msgid "Appends the tooltip to a specific element. Example: \"body\""
+msgstr ""
+
+#: theme/settings.inc:403
+msgid "Advanced"
+msgstr ""
+
+#: theme/settings.inc:409;411;445
+msgid "BootstrapCDN"
+msgstr ""
+
+#: theme/settings.inc:410
+msgid ""
+"Use !bootstrapcdn to serve the Bootstrap framework files. Enabling this "
+"setting will prevent this theme from attempting to load any Bootstrap "
+"framework files locally. !warning"
+msgstr ""
+
+#: theme/settings.inc:414
+msgid "NOTE"
+msgstr ""
+
+#: theme/settings.inc:414
+msgid ""
+"While BootstrapCDN (content distribution network) is the preferred method "
+"for providing huge performance gains in load time, this method does depend "
+"on using this third party service. BootstrapCDN is under no obligation or "
+"commitment to provide guaranteed up-time or service quality for this theme. "
+"If you choose to disable this setting, you must provide your own Bootstrap "
+"source and/or optional CDN delivery implementation."
+msgstr ""
+
+#: theme/settings.inc:421
+msgid "BootstrapCDN version"
+msgstr ""
+
+#: theme/settings.inc:428;451
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: theme/settings.inc:443
+msgid "Bootswatch theme"
+msgstr ""
+
+#: theme/settings.inc:444
+msgid ""
+"Use !bootstrapcdn to serve a Bootswatch Theme. Choose Bootswatch theme here."
+msgstr ""
+
+#: theme/settings.inc:461
+msgid "ERROR"
+msgstr ""
+
+#: theme/settings.inc:461
+msgid ""
+"Unable to reach Bootswatch API. Please ensure the server your website is "
+"hosted on is able to initiate HTTP requests."
+msgstr ""
+
+#: theme/settings.inc:466
+msgid "Rebuild theme registry on every page."
+msgstr ""
+
+#: theme/settings.inc:468
+msgid ""
+"During theme development, it can be very useful to continuously !rebuild. !"
+"warning"
+msgstr ""
+
+#: theme/settings.inc:469
+msgid "rebuild the theme registry"
+msgstr ""
+
+#: theme/settings.inc:470
+msgid "WARNING"
+msgstr ""
+
+#: theme/settings.inc:470
+msgid ""
+"This is a huge performance penalty and must be turned off on production "
+"websites. "
+msgstr ""
+
+#: theme/settings.inc:476
+msgid "Suppress jQuery version error message"
+msgstr ""
+
+#: theme/settings.inc:478
+msgid ""
+"Enable this if the version of jQuery has been upgraded to 1.7+ using a "
+"method other than the !jquery_update module."
+msgstr ""
+
+#: theme/settings.inc:479
+msgid "jQuery Update"
+msgstr ""
+
+#: theme/block/block-admin-display-form.tpl.php:39
+msgid "Block"
+msgstr "Blok"
+
+#: theme/block/block-admin-display-form.tpl.php:40
+msgid "Region"
+msgstr "Gebied"
+
+#: theme/block/block-admin-display-form.tpl.php:41
+msgid "Weight"
+msgstr "Gewicht"
+
+#: theme/block/block-admin-display-form.tpl.php:42
+msgid "Operations"
+msgstr "Bewerkingen"
+
+#: theme/block/block-admin-display-form.tpl.php:52
+msgid "No blocks in this region"
+msgstr "Dit gebied bevat geen blokken"
+
+#: theme/menu/menu-local-task.func.php:17
+msgid "(active tab)"
+msgstr "(actieve tabblad)"
+
+#: theme/menu/menu-local-task.func.php:25
+msgid "!local-task-title!active"
+msgstr "!local-task-title!active"
+
+#: theme/menu/menu-local-tasks.func.php:14
+msgid "Primary tabs"
+msgstr "Primaire tabs"
+
+#: theme/search/search-block-form.tpl.php:33
+msgid "Search form"
+msgstr "Zoekveld"
+
+#: (duplicate) theme/system/form-element-label.func.php:51
+msgid "!title !required"
+msgstr "!title !required"
+
+#: theme/system/html.tpl.php:63
+msgid "Skip to main content"
+msgstr "Overslaan en naar de inhoud gaan"
+
+#: theme/system/pager.func.php:53
+msgid "previous"
+msgstr ""
+
+#: theme/system/pager.func.php:59
+msgid "next"
+msgstr ""
+
+#: theme/system/status-messages.func.php:15
+msgid "Status message"
+msgstr "Statusbericht"
+
+#: theme/system/status-messages.func.php:16
+msgid "Error message"
+msgstr "Foutmelding"
+
+#: theme/system/status-messages.func.php:17
+msgid "Warning message"
+msgstr "Waarschuwingsbericht"
+
+#: theme/system/status-messages.func.php:18
+msgid "Informative message"
+msgstr ""

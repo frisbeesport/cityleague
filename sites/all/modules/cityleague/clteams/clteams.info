@@ -1,0 +1,5 @@
+name = CL Teams
+description = Add team support to Cityleagues
+core = 7.x
+package = Cityleague
+dependencies[] = clleague

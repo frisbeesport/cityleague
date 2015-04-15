@@ -1,0 +1,136 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the clteams module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function clteams_install() {
+	clteams_add_team_fields();
+	clteams_add_team_field_instances();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function clteams_uninstall() {
+	clteams_delete_team_fields();
+}
+
+/**
+ * Implements hook_schema().
+ */ 
+function clteams_schema() {
+	$schema['league_teams'] = array(
+		'description' => 'The table describing Cityleague teams.',
+		'fields' => clteams_schema_teams_fields(),
+		'primary key' => array('tid'),
+	);
+	
+	$schema['league_team_members'] = array(
+		'description' => 'The table describing team members per Cityleague team.',
+		'fields' => clteams_schema_team_members_fields(),
+		'primary key' => array('tid', 'pid'),
+	);
+	
+	return $schema;
+}
+
+function clteams_schema_teams_fields() {
+	return array(
+		'tid'       => array('type' => 'serial', 'unsigned' => TRUE, 'not null' => TRUE),
+		'nid'       => array('type' => 'int',    'unsigned' => TRUE, 'not null' => TRUE),
+		'name'      => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),	
+		'color'     => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),	
+	);
+}
+
+function clteams_schema_team_members_fields() {
+	return array(
+		'tid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),
+		'pid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),
+		'manager'   => array('type' => 'int', 'unsigned' => FALSE, 'not null' => FALSE, 'default' => 0),	
+	);
+}
+
+function clteams_add_team_fields() {
+	foreach (_clteams_league_fields() as $field) {
+		if (!field_info_field($field['field_name'])) {
+			field_create_field($field); 
+		}
+	}
+}
+
+function clteams_add_team_field_instances() {
+	foreach (_clteams_league_field_instances() as $instance) {
+		$existing_instance = field_read_instance($instance['entity_type'], $instance['field_name'], $instance['bundle']);
+		if (empty($existing_instance)) {
+			field_create_instance($instance); 
+		}
+	}
+}
+
+function clteams_delete_team_fields() {
+	foreach (_clteams_league_fields() as $field) {
+		if (field_info_field($field['field_name'])) {
+			field_delete_field($field); 
+		}
+	}
+}
+
+function _clteams_league_fields() {
+	return array(
+		'field_teams' => array(
+			'field_name' => 'field_teams', 
+			'type' => 'list_boolean',
+			'required' => TRUE,
+			'settings' => array(
+				'allowed_values' => array(
+					'No',
+					'Use teams within this league', 
+				),
+			),
+		),
+		'field_user_managed_teams' => array(
+			'field_name' => 'field_user_managed_teams', 
+			'type' => 'list_boolean',
+			'required' => TRUE,
+			'settings' => array(
+				'allowed_values' => array(
+					'No',
+					'Players can manage teams themselves', 
+				),
+			),
+		),	
+	);
+}
+
+
+function _clteams_league_field_instances() {
+	return array(
+		'field_teams' => array(
+			'field_name' => 'field_teams', 
+			'entity_type' => 'node', 
+			'label' => 'Use teams within this league', 
+			'bundle' => 'league', 
+			'required' => FALSE,
+			'widget' => array(
+				'type' => 'options_onoff', 
+			), 
+			'default_value' => array(1),
+		),
+		'field_user_managed_teams' => array(
+			'field_name' => 'field_user_managed_teams', 
+			'entity_type' => 'node', 
+			'label' => 'Players can manage teams themselves', 
+			'bundle' => 'league', 
+			'required' => FALSE,
+			'widget' => array(
+				'type' => 'options_onoff', 
+			), 
+			'default_value' => array(1),
+		),		
+	);		
+}

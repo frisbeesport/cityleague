@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\Cityleague.clpprj">
+	<removed value=";"/><added value="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;"/><codestructure version="4.3">
+		<phptree>
+			<treenode node="_clleague_user_field_instances;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;118;1;179;;;;vpos;;v;;r;;d42,118;;b0,0;;m">
+			</treenode>
+			<treenode node="_clleague_user_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;81;1;115;;;;vpos;;v;;r;;d33,81;;b0,0;;m">
+			</treenode>
+			<treenode node="_clteams_league_field_instances;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;110;1;135;;;;vpos;;v;;r;;d43,110;;b0,0;;m">
+			</treenode>
+			<treenode node="_clteams_league_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;82;1;107;;;;vpos;;v;;r;;d34,82;;b0,0;;m">
+			</treenode>
+			<treenode node="_league_installed_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f0;80;1;167;;;;vpos;;v;;r;;d36,80;;b0,0;;m">
+			</treenode>
+			<treenode node="_league_installed_instances;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f0;180;1;237;;;;vpos;;v;;r;;d39,180;;b0,0;;m">
+			</treenode>
+			<treenode node="access_players_tab;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module;f0;47;1;51;;;;vpos;;v;;r;;d35,47;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module;f28;47;33;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_access_delete_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f0;50;1;53;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f0;50;1;53;;;;vpos;;v;;r;;d47,50;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f40;50;45;50;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f40;50;45;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f8;51;13;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_coordinator_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f0;62;1;66;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f0;62;1;66;;;;vpos;;v;;r;;d42,62;;b0,0;;m">
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f8;63;13;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_coordinator_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.coordinator.inc;f0;6;1;10;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.coordinator.inc;f0;6;1;10;;;;vpos;;v;;r;;d40,6;;b0,0;;m">
+			</treenode>
+			<treenode node="cldashboard_league_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f0;55;1;60;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f0;55;1;60;;;;vpos;;v;;r;;d42,55;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f35;55;40;55;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f35;55;40;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f8;56;13;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_league_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.league.inc;f0;6;1;11;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.league.inc;f0;6;1;11;;;;vpos;;v;;r;;d40,6;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.league.inc;f33;6;38;6;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.league.inc;f33;6;38;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module;f0;14;1;47;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f0;14;1;47;;;;vpos;;v;;r;;d28,14;;b0,0;;m">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module;f1;17;7;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="cldashboard_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.install;f0;9;1;11;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.install;f0;9;1;11;;;;vpos;;v;;r;;d33,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_access_level_coordinator;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;6;1;12;;;;vpos;;v;;r;;d50,6;;b0,0;;muser;;p">
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f43;6;48;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_level_coordinator_and_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;14;1;23;;;;vpos;;v;;r;;d68,14;;b0,0;;muser;;pnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f61;14;66;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f54;14;59;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_level_guest;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;71;1;83;;;;vpos;;v;;r;;d51,71;;b0,0;;muser;;pnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f44;71;49;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f37;71;42;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_level_organizer;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;25;1;37;;;;vpos;;v;;r;;d55,25;;b0,0;;muser;;pnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f48;25;53;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f41;25;46;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_level_player;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;39;1;53;;;;vpos;;v;;r;;d52,39;;b0,0;;muser;;pnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f45;39;50;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f38;39;43;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_level_user;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;55;1;69;;;;vpos;;v;;r;;d50,55;;b0,0;;muser;;pnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f43;55;48;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f36;55;41;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_access_player_remove_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f0;46;1;53;;;;vpos;;v;;r;;d57,46;;b0,0;;mnode;;ppid;;p">
+				<treenode node="allowed;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f1;49;9;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f44;46;49;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f51;46;55;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="sensible;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f1;50;10;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f8;47;13;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_anonimize_league_participant;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f0;33;1;39;;;;vpos;;v;;r;;d53,33;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f47;33;51;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_block_info;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;11;1;29;;;;vpos;;v;;r;;d31,11;;b0,0;;m">
+				<treenode node="blocks;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;24;8;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_block_view;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;37;1;51;;;;vpos;;v;;r;;d42,37;;b0,0;;mdelta;;p">
+				<treenode node="block;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;40;7;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="delta;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f29;37;35;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f8;38;13;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_create_user_field_instances;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;64;1;71;;;;vpos;;v;;r;;d48,64;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_create_user_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;56;1;62;;;;vpos;;v;;r;;d39,56;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_delete_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f0;6;1;30;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f0;6;1;30;;;;vpos;;v;;r;;d50,6;;b0,0;;mform_state;;pnode;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f30;6;41;6;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f30;6;41;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f43;6;48;6;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f43;6;48;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_delete_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f0;32;1;38;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f0;32;1;38;;;;vpos;;v;;r;;d59,32;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f38;32;43;32;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f38;32;43;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f46;32;57;32;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f46;32;57;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_delete_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f0;41;1;49;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f0;41;1;49;;;;vpos;;v;;r;;d59,41;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f38;41;43;41;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f38;41;43;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f46;41;57;41;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f46;41;57;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_delete_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f0;2;1;4;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f0;2;1;4;;;;vpos;;v;;r;;d39,2;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc;f30;2;37;2;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc;f30;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_delete_user_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;73;1;79;;;;vpos;;v;;r;;d39,73;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_draw_coordinator;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;109;1;138;;;;vpos;;v;;r;;d37,109;;b0,0;;m">
+				<treenode node="contents;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;120;10;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="href;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;126;6;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f8;110;13;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_draw_language_selection;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;197;1;212;;;;vpos;;v;;r;;d44,197;;b0,0;;m">
+				<treenode node="_GET;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f48;202;53;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="base_path;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f20;198;30;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="current;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;200;10;200;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="language;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f9;198;18;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="path;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;202;7;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_draw_logon;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;214;1;225;;;;vpos;;v;;r;;d31,214;;b0,0;;m">
+				<treenode node="language;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f16;215;25;215;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f9;215;14;215;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_draw_myleagues;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;140;1;192;;;;vpos;;v;;r;;d35,140;;b0,0;;m">
+				<treenode node="city;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f3;167;8;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="contents;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;154;10;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="href;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f3;169;8;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f25;165;30;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="organizer;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;148;11;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;147;8;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f8;141;13;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f3;166;10;166;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_draw_user_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;91;1;107;;;;vpos;;v;;r;;d35,91;;b0,0;;m">
+				<treenode node="contents;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;92;10;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_get_league_value;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;105;1;115;;;;vpos;;v;;r;;d53,105;;b0,0;;mnid;;pfieldname;;p">
+				<treenode node="fieldname;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f41;105;51;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f35;105;39;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_get_leagues_organizer;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;272;1;287;;;;vpos;;v;;r;;d46,272;;b0,0;;muid;;p">
+				<treenode node="all_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;275;13;275;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="finalized;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;279;12;279;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f25;277;32;277;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nodes;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;273;7;273;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f40;272;44;272;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;278;9;278;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_get_leagues_player;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;249;1;267;;;;vpos;;v;;r;;d43,249;;b0,0;;muid;;p">
+				<treenode node="all_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;252;13;252;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="finalized;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;259;12;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f25;254;32;254;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nodes;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;250;7;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f37;249;41;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;255;9;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="visible;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f2;256;10;256;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_has_free_spots;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;117;1;131;;;;vpos;;v;;r;;d39,117;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f33;117;37;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_install;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnews\clnews.install;f0;16;1;18;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;18;1;23;;;;vpos;;v;;r;;d28,16;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_is_coordinator;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;138;1;143;;;;vpos;;v;;r;;d39,138;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f33;138;37;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_is_finalized;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;93;1;95;;;;vpos;;v;;r;;d37,93;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f31;93;35;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_is_logged_on;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;195;1;203;;;;vpos;;v;;r;;d33,195;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_is_organizer;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;145;1;158;;;;vpos;;v;;r;;d43,145;;b0,0;;mnid;;puid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f31;145;35;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f37;145;41;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_is_player;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;160;1;168;;;;vpos;;v;;r;;d40,160;;b0,0;;mnid;;puid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f28;160;32;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f34;160;38;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_is_player_pid;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;170;1;178;;;;vpos;;v;;r;;d44,170;;b0,0;;mnid;;ppid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f32;170;36;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f38;170;42;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_is_visible;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;89;1;91;;;;vpos;;v;;r;;d35,89;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f29;89;33;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_level_to_string;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;209;1;212;;;;vpos;;v;;r;;d42,209;;b0,0;;mlevel;;p">
+				<treenode node="level;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f34;209;40;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f0;30;1;44;;;;vpos;;v;;r;;d25,30;;b0,0;;m">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f1;31;7;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_node_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f0;63;1;109;;;;vpos;;v;;r;;d49,63;;b0,0;;mnode;;pop;;puser;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f30;63;35;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="op;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f37;63;40;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f42;63;47;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_node_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f0;27;1;31;;;;vpos;;v;;r;;d37,27;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f30;27;35;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_node_info;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f0;10;1;20;;;;vpos;;v;;r;;d30,10;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_node_type_insert;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f0;46;1;69;;;;vpos;;v;;r;;d50,46;;b0,0;;mcontent_type;;p">
+				<treenode node="content_type;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f35;46;48;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_permission;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f0;114;1;121;;;;vpos;;v;;r;;d31,114;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_player_remove_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f0;6;1;47;;;;vpos;;v;;r;;d50,6;;b0,0;;mform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f37;6;48;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_player_remove_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f0;49;1;54;;;;vpos;;v;;r;;d66,49;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f45;49;50;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f53;49;64;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_player_remove_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f0;56;1;69;;;;vpos;;v;;r;;d66,56;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f45;56;50;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f53;56;64;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_player_remove_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f0;2;1;4;;;;vpos;;v;;r;;d52,2;;b0,0;;mleague;;puid;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f37;2;44;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc;f46;2;50;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_remove_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f0;41;1;45;;;;vpos;;v;;r;;d38,41;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f32;41;36;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_retrieve_pid_from_nid_and_uid;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;180;1;193;;;;vpos;;v;;r;;d60,180;;b0,0;;mnid;;puid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f48;180;52;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f54;180;58;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_schema;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnews\clnews.install;f0;23;1;34;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;28;1;43;;;;vpos;;v;;r;;d27,23;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_signoff_open;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;101;1;103;;;;vpos;;v;;r;;d37,101;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f31;101;35;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_signup_open;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f0;97;1;99;;;;vpos;;v;;r;;d36,97;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc;f30;97;34;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install;f0;9;1;13;;;;vpos;;v;;r;;d30,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clleague_user_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f0;16;1;22;;;;vpos;;v;;r;;d56,16;;b0,0;;medit;;paccount;;pmethod;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f37;16;45;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f30;16;35;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="method;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f47;16;54;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_user_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f0;9;1;11;;;;vpos;;v;;r;;d40,9;;b0,0;;maccount;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc;f30;9;38;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_user_login;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f0;233;1;244;;;;vpos;;v;;r;;d47,233;;b0,0;;medit;;paccount;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f37;233;45;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f30;233;35;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="organizer;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;239;11;239;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc;f1;234;8;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clleague_user_update;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f0;127;1;160;;;;vpos;;v;;r;;d59,127;;b0,0;;medit;;paccount;;pcategory;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f38;127;46;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="category;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f48;127;57;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f31;127;36;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="level;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f2;138;8;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nickname;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f2;133;11;133;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f2;141;8;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f2;147;9;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="row;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f22;150;26;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module;f2;132;9;132;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_addresses_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;56;1;60;;;;vpos;;v;;r;;d40,56;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f33;56;38;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_addresses_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.addresses.inc;f0;6;1;20;;;;vpos;;v;;r;;d38,6;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.addresses.inc;f31;6;36;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_generate_participants_bcc;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.addresses.inc;f0;22;1;41;;;;vpos;;v;;r;;d48,22;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.addresses.inc;f42;22;46;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_mail;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;75;1;89;;;;vpos;;v;;r;;d47,75;;b0,0;;mkey;;pmessage;;pparams;;p">
+				<treenode node="key;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f21;75;25;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f28;75;36;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="params;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f38;75;45;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;14;1;50;;;;vpos;;v;;r;;d23,14;;b0,0;;m">
+			</treenode>
+			<treenode node="clmail_organizers;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;80;1;96;;;;vpos;;v;;r;;d33,80;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f27;80;31;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_participants;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;98;1;115;;;;vpos;;v;;r;;d35,98;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f29;98;33;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;62;1;66;;;;vpos;;v;;r;;d39,62;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f32;62;37;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;10;1;44;;;;vpos;;v;;r;;d51,10;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f30;10;35;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f38;10;49;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;49;1;78;;;;vpos;;v;;r;;d59,49;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f38;49;43;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f46;49;57;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;46;1;47;;;;vpos;;v;;r;;d60,46;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f39;46;44;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f47;46;58;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;6;1;8;;;;vpos;;v;;r;;d37,6;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f30;6;35;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_sendmail_send_mail;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f0;117;1;131;;;;vpos;;v;;r;;d54,117;;b0,0;;mto_user;;pparams;;p">
+				<treenode node="params;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f45;117;52;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="to_user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc;f35;117;43;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.install;f0;9;1;11;;;;vpos;;v;;r;;d28,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clmail_unsubscribe_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;52;1;54;;;;vpos;;v;;r;;d37,52;;b0,0;;m">
+			</treenode>
+			<treenode node="clmail_unsubscribe_hash;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f0;96;1;101;;;;vpos;;v;;r;;d40,96;;b0,0;;muser;;p">
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module;f33;96;38;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clmail_unsubscribe_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.unsubscribe.inc;f0;2;1;22;;;;vpos;;v;;r;;d47,2;;b0,0;;muser;;phash;;p">
+				<treenode node="hash;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.unsubscribe.inc;f40;2;45;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.unsubscribe.inc;f33;2;38;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnews_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnews\clnews.module;f0;29;20;29;;;;vpos;;v;;r;;d23,29;;b0,0;;m">
+			</treenode>
+			<treenode node="clnews_permission;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnews\clnews.module;f0;10;1;17;;;;vpos;;v;;r;;d29,10;;b0,0;;m">
+			</treenode>
+			<treenode node="clnews_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnews\clnews.install;f0;9;1;11;;;;vpos;;v;;r;;d28,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_access_export_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module;f0;41;1;45;;;;vpos;;v;;r;;d41,41;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module;f34;41;39;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_add_to_form_nfbmember;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;43;1;149;;;;vpos;;v;;r;;d62,43;;b0,0;;mform;;pdefault_values;;p">
+				<treenode node="default_values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f45;43;60;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f38;43;43;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_anonimize_league_participant;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;35;1;41;;;;vpos;;v;;r;;d50,35;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f44;35;48;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_cleanup_values;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f0;70;1;75;;;;vpos;;v;;r;;d40,70;;b0,0;;mfields;;p">
+				<treenode node="fields;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f31;70;38;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_export_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.export.inc;f0;2;1;73;;;;vpos;;v;;r;;d34,2;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.export.inc;f27;2;32;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clleague_player_remove_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f0;16;1;18;;;;vpos;;v;;r;;d75,16;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f55;16;60;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f62;16;73;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clsignup_edit_registration_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;25;1;27;;;;vpos;;v;;r;;d79,25;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f59;25;64;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f66;25;77;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clsignup_initial_registration_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;11;1;13;;;;vpos;;v;;r;;d83,11;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f62;11;67;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f70;11;81;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clsignup_league_registration_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;18;1;20;;;;vpos;;v;;r;;d82,18;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f61;18;66;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f69;18;80;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clsignup_registration_form_alter_common;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;29;1;41;;;;vpos;;v;;r;;d92,29;;b0,0;;mform;;pform_state;;pcontext;;p">
+				<treenode node="context;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f82;29;90;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f61;29;66;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f69;29;80;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_form_clsignup_resign_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f0;9;1;11;;;;vpos;;v;;r;;d68,9;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f48;9;53;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f55;9;66;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module;f0;16;1;39;;;;vpos;;v;;r;;d22,16;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_node_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;29;1;33;;;;vpos;;v;;r;;d34,29;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f27;29;32;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_player_remove_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f0;33;1;42;;;;vpos;;v;;r;;d63,33;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f42;33;47;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f50;33;61;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_players_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f0;4;1;27;;;;vpos;;v;;r;;d37,4;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f28;4;35;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_players_page_for_organizers;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f0;29;1;114;;;;vpos;;v;;r;;d52,29;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f43;29;50;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_players_page_for_players;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f0;116;1;152;;;;vpos;;v;;r;;d49,116;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc;f40;116;47;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_remove_league_participants;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;49;1;54;;;;vpos;;v;;r;;d48,49;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f42;49;46;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_remove_user_information;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;43;1;47;;;;vpos;;v;;r;;d45,43;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f39;43;43;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_resign_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f0;20;1;31;;;;vpos;;v;;r;;d56,20;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f35;20;40;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc;f43;20;54;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_retrieve_default_values;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;185;1;203;;;;vpos;;v;;r;;d65,185;;b0,0;;mnid;;puid;;pform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f52;185;63;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f39;185;43;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f45;185;49;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_retrieve_default_values_empty;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;219;1;234;;;;vpos;;v;;r;;d47,219;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_retrieve_nfb_membership_info_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f0;7;1;26;;;;vpos;;v;;r;;d63,7;;b0,0;;muid;;pnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f57;7;61;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f51;7;55;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_retrieve_nfb_membership_info_user;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f0;28;1;45;;;;vpos;;v;;r;;d55,28;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f49;28;53;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_retrieve_values_from_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;205;1;217;;;;vpos;;v;;r;;d55,205;;b0,0;;mform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f42;205;53;205;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_schema;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.install;f0;16;1;37;;;;vpos;;v;;r;;d24,16;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_schema_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.install;f0;39;1;56;;;;vpos;;v;;r;;d31,39;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_set_nfb_membership_info_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f0;47;1;58;;;;vpos;;v;;r;;d67,47;;b0,0;;muid;;pnid;;pfields;;p">
+				<treenode node="fields;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f58;47;65;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f52;47;56;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f46;47;50;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_set_nfb_membership_info_user;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f0;60;1;68;;;;vpos;;v;;r;;d59,60;;b0,0;;muid;;pfields;;p">
+				<treenode node="fields;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f50;60;57;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc;f44;60;48;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_signup_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;165;1;179;;;;vpos;;v;;r;;d56,165;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f35;165;40;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f43;165;54;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_signup_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f0;151;1;163;;;;vpos;;v;;r;;d58,151;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f37;151;42;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc;f45;151;56;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.install;f0;9;1;11;;;;vpos;;v;;r;;d27,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clnfb_user_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;17;1;24;;;;vpos;;v;;r;;d53,17;;b0,0;;medit;;paccount;;pmethod;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f34;17;42;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f27;17;32;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="method;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f44;17;51;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clnfb_user_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f0;9;1;12;;;;vpos;;v;;r;;d37,9;;b0,0;;maccount;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc;f27;9;35;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_block_info;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;103;1;120;;;;vpos;;v;;r;;d31,103;;b0,0;;m">
+				<treenode node="blocks;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;104;8;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_block_view;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;128;1;160;;;;vpos;;v;;r;;d42,128;;b0,0;;mdelta;;p">
+				<treenode node="block;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;131;7;131;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="delta;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f29;128;35;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f4;136;9;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f8;129;13;129;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_commit_registration;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;267;1;287;;;;vpos;;v;;r;;d52,267;;b0,0;;mform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f39;267;50;267;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_complete_registration_block;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;174;1;193;;;;vpos;;v;;r;;d48,174;;b0,0;;m">
+				<treenode node="button;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f46;189;53;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="href;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;180;6;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;178;8;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;181;9;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;177;5;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="table;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;188;7;188;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f8;175;13;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="utton;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;186;7;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_complete_signup_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;58;1;81;;;;vpos;;v;;r;;d43,58;;b0,0;;m">
+				<treenode node="sid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;71;6;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="signed_up;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;73;12;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;59;13;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_complete_signup_form_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f0;21;1;70;;;;vpos;;v;;r;;d78,21;;b0,0;;muid;;ptimestamp;;phashed_pass;;p">
+				<treenode node="hashed_pass;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f64;21;76;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="timestamp;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f52;21;62;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f46;21;50;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_create_user_account;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;411;1;428;;;;vpos;;v;;r;;d52,411;;b0,0;;mform_state;;p">
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;417;6;417;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f39;411;50;411;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="language;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;412;17;412;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="newname;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;415;9;415;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;425;6;425;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_complete_registration;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;40;1;55;;;;vpos;;v;;r;;d0,41;;b0,0;;muid;;pnid;;pfields;;p">
+				<treenode node="fields;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f55;40;62;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f49;40;53;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f43;40;47;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_discard_signup;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;20;1;24;;;;vpos;;v;;r;;d42,20;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f36;20;40;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_edit_registration;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;33;1;38;;;;vpos;;v;;r;;d54,33;;b0,0;;mpid;;pfields;;p">
+				<treenode node="fields;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f45;33;52;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f39;33;43;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_get_signed_up_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;6;1;18;;;;vpos;;v;;r;;d48,6;;b0,0;;muid;;p">
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f42;6;46;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_resign;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;26;1;31;;;;vpos;;v;;r;;d40,26;;b0,0;;muid;;pnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f34;26;38;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f28;26;32;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_db_signup;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f0;57;1;67;;;;vpos;;v;;r;;d40,57;;b0,0;;muid;;pnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f34;57;38;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc;f28;57;32;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_edit_registration_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;120;1;161;;;;vpos;;v;;r;;d69,120;;b0,0;;mform;;pform_state;;pnode;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f41;120;46;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f49;120;60;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f62;120;67;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_edit_registration_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;228;1;231;;;;vpos;;v;;r;;d70,228;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f49;228;54;228;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f57;228;68;228;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_edit_registration_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;233;1;240;;;;vpos;;v;;r;;d70,233;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f49;233;54;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f57;233;68;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_edit_registration_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;7;1;9;;;;vpos;;v;;r;;d48,7;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f41;7;46;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_email_registration_unique_username;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;451;1;478;;;;vpos;;v;;r;;d70,451;;b0,0;;mmail;;puid;;p">
+				<treenode node="found;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;473;8;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;470;3;470;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="mail;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f53;451;58;451;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="name;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;452;6;452;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="new_name;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;472;11;472;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f60;451;64;451;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_get_existing_user;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;326;1;337;;;;vpos;;v;;r;;d44,326;;b0,0;;memail;;p">
+				<treenode node="email;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f36;326;42;326;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="member;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f5;332;12;332;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;327;7;327;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="results;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;330;9;330;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_get_open_leagues;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;67;1;79;;;;vpos;;v;;r;;d37,67;;b0,0;;m">
+				<treenode node="all_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;70;13;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f25;72;32;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="open_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;68;14;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_get_selectable_leagues;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;95;1;126;;;;vpos;;v;;r;;d43,95;;b0,0;;m">
+				<treenode node="city;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f3;107;8;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f40;105;43;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="logged_on;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;98;11;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="open_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;100;14;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="open_leagues_ids;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;101;18;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="selectable_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;103;20;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="sid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f3;113;7;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f8;96;13;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f3;106;10;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_get_upcoming_leagues;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;81;1;93;;;;vpos;;v;;r;;d41,81;;b0,0;;m">
+				<treenode node="all_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;84;13;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f25;86;32;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="upcoming_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;82;18;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;79;1;85;;;;vpos;;v;;r;;d53,79;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f46;79;51;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f8;80;13;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;15;1;77;;;;vpos;;v;;r;;d72,15;;b0,0;;mform;;pform_state;;pnode;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f44;15;49;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f52;15;63;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f65;15;70;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;163;1;171;;;;vpos;;v;;r;;d73,163;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f52;163;57;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f60;163;71;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;185;1;205;;;;vpos;;v;;r;;d73,185;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f52;185;57;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f60;185;71;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;173;1;183;;;;vpos;;v;;r;;d75,173;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f54;173;59;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f62;173;73;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_initial_registration_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;2;1;5;;;;vpos;;v;;r;;d51,2;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f44;2;49;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_install;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.install;f0;16;1;18;;;;vpos;;v;;r;;d28,16;;b0,0;;m">
+			</treenode>
+			<treenode node="clsignup_is_league_upcoming;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;46;1;61;;;;vpos;;v;;r;;d46,46;;b0,0;;mleague;;p">
+				<treenode node="end_date;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;56;10;56;;;;vposDateObject;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="finalized;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;52;11;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f37;46;44;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="now_date;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;57;10;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;47;8;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="visible;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;48;9;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_is_signed_up_or_player;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;133;1;148;;;;vpos;;v;;r;;d47,133;;b0,0;;muid;;p">
+				<treenode node="already_player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f2;143;17;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="already_signedup;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f2;140;19;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f35;139;38;139;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="sid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;134;5;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f41;133;45;133;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="upcoming_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;136;18;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="upcoming_leagues_ids;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;137;22;137;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_available_for_signup;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;27;1;44;;;;vpos;;v;;r;;d55,27;;b0,0;;mleague;;p">
+				<treenode node="has_free_spots;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;35;16;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f46;27;53;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="signup_open;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;32;13;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;31;8;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_on_current_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f0;6;1;17;;;;vpos;;v;;r;;d43,6;;b0,0;;m">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;9;5;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc;f1;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_registration_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;68;1;77;;;;vpos;;v;;r;;d52,68;;b0,0;;mnode;;p">
+				<treenode node="already_player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;71;16;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="already_signedup;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;72;18;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f45;68;50;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f8;69;13;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_registration_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;79;1;118;;;;vpos;;v;;r;;d71,79;;b0,0;;mform;;pform_state;;pnode;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f43;79;48;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f51;79;62;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f64;79;69;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_registration_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;208;1;214;;;;vpos;;v;;r;;d72,208;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f51;208;56;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f59;208;70;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_registration_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;216;1;226;;;;vpos;;v;;r;;d72,216;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f51;216;56;216;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f59;216;70;216;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_league_registration_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;11;1;13;;;;vpos;;v;;r;;d50,11;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f43;11;48;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;12;1;54;;;;vpos;;v;;r;;d25,12;;b0,0;;m">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;13;7;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_menu_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;56;1;66;;;;vpos;;v;;r;;d38,56;;b0,0;;mitems;;p">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f30;56;36;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_node_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f0;27;1;31;;;;vpos;;v;;r;;d37,27;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f30;27;35;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_onetimelogin_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f0;5;1;19;;;;vpos;;v;;r;;d68,5;;b0,0;;muid;;ptimestamp;;phashed_pass;;p">
+				<treenode node="hashed_pass;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f54;5;66;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="timestamp;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f42;5;52;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc;f36;5;40;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_primary_signup_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;6;1;29;;;;vpos;;v;;r;;d42,6;;b0,0;;m">
+				<treenode node="signed_up;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;21;12;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;7;13;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_registration_form_account;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;289;1;346;;;;vpos;;v;;r;;d67,289;;b0,0;;mform;;pedit;;p">
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f52;289;57;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f45;289;50;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_remove_signup_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f0;33;1;37;;;;vpos;;v;;r;;d45,33;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f39;33;43;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_remove_signup_user;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f0;39;1;43;;;;vpos;;v;;r;;d43,39;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f37;39;41;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_resign_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;88;1;94;;;;vpos;;v;;r;;d39,88;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f32;88;37;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f8;89;13;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_resign_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f0;6;1;31;;;;vpos;;v;;r;;d43,6;;b0,0;;mform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f30;6;41;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_resign_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f0;33;1;37;;;;vpos;;v;;r;;d59,33;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f38;33;43;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f46;33;57;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_resign_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f0;39;1;47;;;;vpos;;v;;r;;d59,39;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f38;39;43;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f46;39;57;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_resign_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f0;2;1;4;;;;vpos;;v;;r;;d39,2;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc;f30;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_schema;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.install;f0;23;1;34;;;;vpos;;v;;r;;d27,23;;b0,0;;m">
+			</treenode>
+			<treenode node="clsignup_secondary_signup_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;31;2;56;;;;vpos;;v;;r;;d44,31;;b0,0;;m">
+				<treenode node="finalized;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;47;12;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;35;5;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;45;7;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="page_contains_league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;36;22;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;48;9;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="signedup;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;49;11;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;32;13;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;187;1;291;;;;vpos;;v;;r;;d51,187;;b0,0;;mform;;pform_state;;p">
+				<treenode node="default_league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;219;18;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f30;187;35;187;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f38;187;49;187;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league_keys;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;221;15;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="logged_on;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;207;11;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;194;10;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;189;5;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="selectable_leagues;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;191;20;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="title;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;229;7;229;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;188;13;188;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_specific;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;87;1;183;;;;vpos;;v;;r;;d60,87;;b0,0;;mform;;pform_state;;p">
+				<treenode node="city;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;122;6;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f39;87;44;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f47;87;58;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="logged_on;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;113;11;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;92;10;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;89;5;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;120;6;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="title;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;124;7;124;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;88;13;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;121;8;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_specific_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;296;1;298;;;;vpos;;v;;r;;d68,296;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f47;296;52;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f55;296;66;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_specific_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;292;1;294;;;;vpos;;v;;r;;d70,292;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f49;292;54;292;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f57;292;68;292;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;339;1;409;;;;vpos;;v;;r;;d59,339;;b0,0;;mform;;pform_state;;p">
+				<treenode node="email;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;349;7;349;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f38;339;43;339;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f46;339;57;339;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="language;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f15;340;24;340;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;395;11;395;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="newuser;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;355;11;355;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;343;6;343;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;368;7;368;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f8;340;13;340;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user_created;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;356;16;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user_exists;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;348;13;348;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user_wrapper;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;371;16;371;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="values;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f3;394;10;394;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;300;1;311;;;;vpos;;v;;r;;d61,300;;b0,0;;mform;;pform_state;;p">
+				<treenode node="email;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;308;8;308;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f40;300;45;300;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f48;300;59;300;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f2;302;6;302;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_signup_form_validate_email;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f0;313;1;324;;;;vpos;;v;;r;;d59,313;;b0,0;;memail;;pnid;;p">
+				<treenode node="email;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f45;313;51;313;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="existing_user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f1;319;15;319;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc;f53;313;57;313;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.install;f0;9;1;11;;;;vpos;;v;;r;;d30,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clsignup_update_registration;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f0;242;1;265;;;;vpos;;v;;r;;d52,242;;b0,0;;mform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc;f39;242;50;242;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_user_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f0;16;1;22;;;;vpos;;v;;r;;d56,16;;b0,0;;medit;;paccount;;pmethod;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f37;16;45;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f30;16;35;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="method;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f47;16;54;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_user_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f0;9;1;11;;;;vpos;;v;;r;;d40,9;;b0,0;;maccount;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc;f30;9;38;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clsignup_user_login;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f0;165;1;172;;;;vpos;;v;;r;;d47,165;;b0,0;;medit;;paccount;;p">
+				<treenode node="account;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f37;165;45;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f30;165;35;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="href;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f2;169;7;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="sid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module;f1;166;5;166;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_players_tab;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;206;1;211;;;;vpos;;v;;r;;d43,206;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f36;206;41;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;207;13;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_assign_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;116;1;119;;;;vpos;;v;;r;;d48,116;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f41;116;46;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;117;13;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_create_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;121;1;134;;;;vpos;;v;;r;;d48,121;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f41;121;46;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f3;128;7;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;122;13;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_delete_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;193;1;195;;;;vpos;;v;;r;;d54,193;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f41;193;46;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f48;193;52;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_edit_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;142;1;159;;;;vpos;;v;;r;;d52,142;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f39;142;44;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f3;153;7;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f46;142;50;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;143;13;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_join_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;161;1;175;;;;vpos;;v;;r;;d52,161;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f39;161;44;161;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;168;5;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f46;161;50;161;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;162;13;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_list_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;111;1;114;;;;vpos;;v;;r;;d46,111;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f39;111;44;111;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;112;13;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_unjoin_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;177;1;191;;;;vpos;;v;;r;;d54,177;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f41;177;46;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;184;5;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f48;177;52;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;178;13;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_access_team_view_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;136;1;140;;;;vpos;;v;;r;;d52,136;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f39;136;44;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f46;136;50;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;137;13;137;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_add_team_field_instances;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;65;1;72;;;;vpos;;v;;r;;d44,65;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_add_team_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;57;1;63;;;;vpos;;v;;r;;d35,57;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_assign_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;6;1;38;;;;vpos;;v;;r;;d50,6;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f29;6;34;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f37;6;48;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_assign_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;112;1;131;;;;vpos;;v;;r;;d58,112;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f37;112;42;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f45;112;56;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_assign_get_players_from_form_team;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;148;1;163;;;;vpos;;v;;r;;d65,148;;b0,0;;mform;;ptid;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f52;148;57;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f59;148;63;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_assign_get_teams_from_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;133;1;146;;;;vpos;;v;;r;;d52,133;;b0,0;;mform;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f45;133;50;133;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_assign_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;2;1;4;;;;vpos;;v;;r;;d38,2;;b0,0;;mleague;;p">
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f29;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_assign_player;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;165;1;188;;;;vpos;;v;;r;;d61,165;;b0,0;;mnid;;ppid;;poldtid;;pnewtid;;p">
+				<treenode node="newtid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f52;165;59;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f31;165;35;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="oldtid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f43;165;50;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f37;165;41;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_block_info;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;220;1;227;;;;vpos;;v;;r;;d30,220;;b0,0;;m">
+				<treenode node="blocks;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;221;8;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_block_view;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;235;1;266;;;;vpos;;v;;r;;d41,235;;b0,0;;mdelta;;p">
+				<treenode node="block;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;238;7;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="button;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;251;11;251;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="delta;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f28;235;34;235;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="href;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;249;9;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="message;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;246;12;246;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;248;8;248;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="renderable;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;253;15;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="title;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f4;244;10;244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;236;13;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_create_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f0;8;1;48;;;;vpos;;v;;r;;d50,8;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f29;8;34;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f37;8;48;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_create_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f0;65;1;85;;;;vpos;;v;;r;;d58,65;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f37;65;42;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f45;65;56;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_create_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f0;50;1;63;;;;vpos;;v;;r;;d60,50;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f39;50;44;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f47;50;58;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_create_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc;f0;4;1;6;;;;vpos;;v;;r;;d31,4;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_delete_team_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;74;1;80;;;;vpos;;v;;r;;d38,74;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_form_clleague_player_remove_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f0;27;1;29;;;;vpos;;v;;r;;d77,27;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f57;27;62;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f64;27;75;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_form_clleague_resign_form_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f0;9;1;11;;;;vpos;;v;;r;;d70,9;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f50;9;55;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f57;9;68;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_league_for_team;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f0;25;1;40;;;;vpos;;v;;r;;d43,25;;b0,0;;mtid;;p">
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f37;25;41;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_list_of_teams;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f0;6;1;22;;;;vpos;;v;;r;;d41,6;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f35;6;39;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_pid_in_league;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f0;42;1;44;;;;vpos;;v;;r;;d47,42;;b0,0;;muid;;pnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f41;42;45;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="uid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc;f35;42;39;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_players_in_any_team;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;206;1;221;;;;vpos;;v;;r;;d47,206;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f41;206;45;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_players_in_any_team_list;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f0;212;1;227;;;;vpos;;v;;r;;d52,212;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f46;212;50;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="players;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;221;9;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;213;7;213;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="record;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f22;222;29;222;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="results;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;219;9;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_get_players_in_team;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;190;1;204;;;;vpos;;v;;r;;d43,190;;b0,0;;mtid;;p">
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f37;190;41;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_install;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;9;1;12;;;;vpos;;v;;r;;d27,9;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_is_orphin;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f0;28;1;41;;;;vpos;;v;;r;;d39,28;;b0,0;;mpid;;pnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f33;28;37;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f27;28;31;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_is_team_member;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f0;43;1;54;;;;vpos;;v;;r;;d44,43;;b0,0;;mpid;;ptid;;p">
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f32;43;36;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f38;43;42;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_list_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f0;2;1;90;;;;vpos;;v;;r;;d36,2;;b0,0;;mleague;;p">
+				<treenode node="count;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f2;36;8;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f3;38;8;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="join;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f2;20;7;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f27;2;34;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f2;22;6;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="renderable_array;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;3;18;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="team;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f29;37;34;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;5;7;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f21;37;25;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="unassigned;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;76;12;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="unjoin;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f3;46;10;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f9;21;14;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_list_team;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f0;23;1;66;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f0;92;1;123;;;;vpos;;v;;r;;d66,92;;b0,0;;mleague;;pteam;;pjoin;;punjoin;;pedit;;p">
+				<treenode node="buttons;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;116;9;116;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;116;9;116;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;116;9;116;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;116;9;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="caption;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;110;9;110;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;110;9;110;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;110;9;110;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;110;9;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="edit;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f59;92;64;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f59;92;64;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f59;92;64;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f59;92;64;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="editurl;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;112;9;112;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;112;9;112;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;112;9;112;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;112;9;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="headers;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;24;9;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="join;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f43;92;48;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f43;92;48;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f43;92;48;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f43;92;48;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="joinurl;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;113;9;113;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;113;9;113;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;113;9;113;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;113;9;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="league;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f27;92;34;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f27;92;34;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f27;92;34;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f27;92;34;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f22;47;29;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="players;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;100;9;100;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;100;9;100;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;100;9;100;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;44;9;44;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;100;9;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;93;7;93;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;93;7;93;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;93;7;93;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;36;7;36;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;93;7;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="rows;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;46;6;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="table;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;55;7;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="team;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f36;92;41;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f36;92;41;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f36;92;41;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f27;23;32;23;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f36;92;41;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="unjoin;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f50;92;57;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f50;92;57;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f50;92;57;92;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f50;92;57;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="unjoinurl;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;114;11;114;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;114;11;114;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;114;11;114;;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;114;11;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_list_unassigned;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f0;126;1;177;;;;vpos;;v;;r;;d48,126;;b0,0;;mteams;;pnid;;p">
+				<treenode node="all_players;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;147;13;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f42;126;46;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="option_tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f20;153;31;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="options;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;152;9;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f21;148;28;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="players;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;158;9;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="players_in_team;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;140;17;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;142;7;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;145;8;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="rows;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f4;163;9;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="team;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f35;153;40;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f34;126;40;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_markup_table;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f0;179;1;210;;;;vpos;;v;;r;;d60,179;;b0,0;;mplayers;;pcaption;;pbuttons;;p">
+				<treenode node="buttons;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f50;179;58;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="caption;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f40;179;48;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="markup;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f1;180;8;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="player;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f23;191;30;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="players;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc;f30;179;38;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_menu;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;21;1;109;;;;vpos;;v;;r;;d24,21;;b0,0;;m">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_menu_alter;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;202;1;204;;;;vpos;;v;;r;;d37,202;;b0,0;;mitems;;p">
+				<treenode node="items;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f29;202;35;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_node_delete;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f0;43;1;57;;;;vpos;;v;;r;;d36,43;;b0,0;;mnode;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f29;43;34;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_player_remove_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f0;31;1;38;;;;vpos;;v;;r;;d65,31;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f44;31;49;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f52;31;63;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_reminder_team_access;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f0;268;1;289;;;;vpos;;v;;r;;d40,268;;b0,0;;m">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;279;5;279;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;281;6;281;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;283;5;283;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f1;280;7;280;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="user;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module;f8;269;13;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_resign_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f0;13;1;22;;;;vpos;;v;;r;;d58,13;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f37;13;42;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc;f45;13;56;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_schema;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;24;1;38;;;;vpos;;v;;r;;d26,24;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_schema_team_members_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;49;1;55;;;;vpos;;v;;r;;d46,49;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_schema_teams_fields;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;40;1;47;;;;vpos;;v;;r;;d39,40;;b0,0;;m">
+			</treenode>
+			<treenode node="clteams_supports_teams;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f0;17;1;26;;;;vpos;;v;;r;;d38,17;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f32;17;36;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_supports_user_teams;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f0;6;1;15;;;;vpos;;v;;r;;d43,6;;b0,0;;mnid;;p">
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc;f37;6;41;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_delete_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f0;6;1;39;;;;vpos;;v;;r;;d55,6;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f34;6;39;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f42;6;53;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_delete_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f0;41;1;47;;;;vpos;;v;;r;;d63,41;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f42;41;47;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f50;41;61;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_delete_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f0;49;1;67;;;;vpos;;v;;r;;d63,49;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f42;49;47;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f50;49;61;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_delete_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f0;2;1;4;;;;vpos;;v;;r;;d47,2;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f34;2;39;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc;f41;2;45;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_edit_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f0;8;1;57;;;;vpos;;v;;r;;d53,8;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f32;8;37;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f40;8;51;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_edit_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f0;75;1;97;;;;vpos;;v;;r;;d61,75;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f40;75;45;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f48;75;59;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_edit_form_validate;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f0;59;1;73;;;;vpos;;v;;r;;d63,59;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f42;59;47;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f50;59;61;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_edit_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f0;4;1;6;;;;vpos;;v;;r;;d45,4;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f32;4;37;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc;f39;4;43;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f0;6;1;38;;;;vpos;;v;;r;;d53,6;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f32;6;37;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f40;6;51;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_form_addteam;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;40;1;69;;;;vpos;;v;;r;;d63,40;;b0,0;;mform;;ptid;;pteams;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f41;40;46;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f55;40;61;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f48;40;52;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_form_addunassigned;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f0;72;1;110;;;;vpos;;v;;r;;d69,72;;b0,0;;mform;;pteams;;pnid;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f47;72;52;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f63;72;67;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc;f55;72;61;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f0;40;1;47;;;;vpos;;v;;r;;d61,40;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f40;40;45;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f48;40;59;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f0;49;1;72;;;;vpos;;v;;r;;d61,49;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f40;49;45;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f48;49;59;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_join_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f0;2;1;4;;;;vpos;;v;;r;;d45,2;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f32;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc;f39;2;43;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_unjoin_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f0;6;1;38;;;;vpos;;v;;r;;d55,6;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f34;6;39;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f42;6;53;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_unjoin_form_cancel;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f0;41;1;48;;;;vpos;;v;;r;;d63,41;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f42;41;47;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f50;41;61;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_unjoin_form_submit;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f0;50;1;74;;;;vpos;;v;;r;;d63,50;;b0,0;;mform;;pform_state;;p">
+				<treenode node="form;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f42;50;47;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f50;50;61;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_unjoin_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f0;2;1;4;;;;vpos;;v;;r;;d47,2;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f34;2;39;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc;f41;2;45;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_team_view_page;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f0;2;1;21;;;;vpos;;v;;r;;d45,2;;b0,0;;mnode;;ptid;;p">
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f32;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="renderable_array;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;3;18;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="team;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;6;6;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="teams;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f1;5;7;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tid;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep;f39;2;43;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="clteams_uninstall;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install;f0;17;1;19;;;;vpos;;v;;r;;d29,17;;b0,0;;m">
+			</treenode>
+			<treenode node="league_form;PHP:Function Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f0;32;1;34;;;;vpos;;v;;r;;d41,32;;b0,0;;mnode;;pform_state;;p">
+				<treenode node="form_state;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f28;32;39;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="node;PHP:Var Name;C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc;f21;32;26;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\Cityleague.clpprj" crc="2109215607"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.view.inc_keep" crc="346817727"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.unjoin.inc" crc="-1680609104"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.join.inc" crc="737037493"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.edit.inc" crc="-2068841727"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.delete.inc" crc="1323735085"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.team.create.inc" crc="-943724097"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.module" crc="-1417459342"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.list.inc" crc="-871115313"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.install" crc="-230591990"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.info" crc="-1964412840"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.deletehooks.inc" crc="-329277883"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.database.inc" crc="-1899276562"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.assign.inc" crc="-1963256884"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clteams\clteams.api.inc" crc="109806102"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.signup.inc" crc="1887522020"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.resign.inc" crc="921601140"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.registration.inc" crc="1935206612"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.onetimelogin.inc" crc="1574107314"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.module" crc="-913823192"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.install" crc="672585914"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.info" crc="-1232896812"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.deletehooks.inc" crc="-675862728"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.database.inc" crc="-1960205379"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clsignup\clsignup.api.inc" crc="380640229"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.resign.inc" crc="1630075437"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.registration.inc" crc="2082255231"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.players.inc" crc="-517745350"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.module" crc="-1776834013"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.install" crc="-956107316"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.info" crc="-1919152366"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.export.inc" crc="-828755188"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.deletehooks.inc" crc="-2031208883"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clnfb\clnfb.database.inc" crc="2140560788"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.unsubscribe.inc" crc="-1568116710"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.sendmail.inc" crc="751758523"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.module" crc="-1123458922"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.install" crc="1893420398"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.info" crc="1548651829"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clmail\clmail.addresses.inc" crc="-426597676"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.player.remove.inc" crc="-1477145292"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.module" crc="1812923775"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.menu.inc" crc="695865650"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.install" crc="1198866913"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.info" crc="-773187886"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.deletehooks.inc" crc="790443475"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.contenttype.inc" crc="-2128313389"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.blocks.inc" crc="-311316367"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clleague\clleague.api.inc" crc="-1281654701"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clinvite\clinvite.module" crc="-1234991366"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.module" crc="-1512860314"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.league.inc" crc="-1790433863"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.install" crc="290920038"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.info" crc="1316862870"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.delete.inc" crc="-889698816"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\cldashboard\cldashboard.coordinator.inc" crc="1961441925"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.league.inc" crc="-1790433863"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.delete.inc" crc="-889698816"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\cldashboard.coordinator.inc" crc="1961441925"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.module" crc="-1512860314"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.install" crc="290920038"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\clcontact\clcontact.info" crc="1316862870"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\scopes\scope_settings.xml" crc="2157974"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\inspectionProfiles\Project_Default.xml" crc="-1570561945"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\inspectionProfiles\profiles_settings.xml" crc="964416023"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\workspace.xml" crc="702787804"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\vcs.xml" crc="-782377546"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\modules.xml" crc="1139994929"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\misc.xml" crc="-456079630"/>
+		<file name="C:\xampp_mail\htdocs\sites\all\modules\cityleague\.idea\encodings.xml" crc="-303890289"/>
+	</codestructure></project>

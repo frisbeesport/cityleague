@@ -1,0 +1,68 @@
+<?php
+
+function clteams_team_view_page($node, $tid)	{
+	$renderable_array = array();
+	
+	$teams = clteams_get_list_of_teams($node->nid);
+	$team = $teams[$tid];
+	
+	drupal_set_title($team->name);
+	
+	$renderable_array['color'] = array(
+		'#type' => 'markup',
+		'#markup' => '<p>'. t('Color') . ': ' . $team->color . '</p>',
+	);
+	
+	$renderable_array['team' . $team->tid] = array(
+		'#type' => 'markup',
+		'#markup' => clteams_list_team($team),
+	);
+	
+	return $renderable_array;
+}
+
+function clteams_list_team($team) {
+	$headers = array(
+		array(
+			'data' => t('Player name'), 
+			'field' => 'ps.nickname',
+			'sort' => 'asc'
+		),
+		array(
+			'data' => t('Level'), 
+			'field' => 'ps.level',
+		),
+	);
+		
+	$query = db_select('league_team_members', 'ts')
+		->fields('ts', array('tid', 'pid', 'manager'))
+		->condition('ts.tid', $team->tid);
+	$query->join('league_participants', 'ps', 'ps.pid=ts.pid');
+	$query->fields('ps', array('nickname', 'level'))
+		->extend('TableSort')
+		->orderByHeader($headers); 
+			
+	$players = $query->execute();
+
+	$rows = array();
+	foreach ($players as $player) {
+						
+		$rows[] = array(
+			array('data' => $player->nickname), 
+			array('data' => clleague_level_to_string($player->level)),
+		);
+	}
+	
+	$table = theme_table(array(
+		'header' => $headers, 
+		'rows' => $rows,
+		'attributes' => array(),
+		'caption'  => t('Players'),
+		'colgroups'   => NULL,
+		'sticky' => NULL,
+		'empty' => t('This team does not have any players yet'),
+	));
+			
+	return $table;
+}
+

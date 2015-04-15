@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * @file
+ * Module file for Cityleague Dashboard module.
+ */
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                                 Menu
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** 
+ * Implements hook_menu().
+ */
+function cldashboard_menu() {
+ 
+	// League specific dashboard
+	$items["node/%node/dashboard"] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'Dashboard',
+		'page callback' => 'cldashboard_league_page',
+		'page arguments' => array(1),
+		'access callback' => 'cldashboard_league_access',
+		'access arguments' => array(1),
+		'file' => 'cldashboard.league.inc',
+	);
+	
+	// Overall dashboard
+	$items["dashboard"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Coordinator\'s dashboard',
+		'page callback' => 'cldashboard_coordinator_page',
+		'access callback' => 'cldashboard_coordinator_access',
+		'file' => 'cldashboard.coordinator.inc',
+	);
+	
+	$items["node/%node/dashboard/deleteleague"] = array(
+		'type' => MENU_LOCAL_ACTION,
+		'title' => 'Delete league',
+		'page callback' => 'cldashboard_delete_page',
+		'page arguments' => array(1),
+		'access callback' => 'cldashboard_access_delete_page',
+		'access arguments' => array(1),
+		'file' => 'cldashboard.delete.inc',
+	);
+	
+	return $items;
+}
+
+
+function cldashboard_access_delete_page($node) {
+	global $user;
+	return clleague_access_level_coordinator_and_league($user, $node); 
+}
+
+function cldashboard_league_access($node) {
+	global $user;
+
+	return clleague_access_level_coordinator_and_league($user, $node); 
+	//return clleague_access_level_organizer($user, $node);
+}
+
+function cldashboard_coordinator_access() {
+	global $user;
+
+	return clleague_access_level_coordinator($user);
+}

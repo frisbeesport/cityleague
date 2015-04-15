@@ -1,0 +1,6 @@
+name = CL Signup 
+description = Gradual sign up for cityleagues
+core = 7.x
+package = Cityleague
+dependencies[] = clleague
+

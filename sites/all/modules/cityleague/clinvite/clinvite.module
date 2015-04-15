@@ -1,0 +1,51 @@
+/**
+ * Implements hook_block_info().
+ */
+function clsignup_block_info() {
+	$blocks['invite_friend'] = array(
+		'info' => t('Invite a friend'),
+		'region' => 'sidebar_first',  
+	);
+	
+	return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ *
+ * This hook generates the contents of the blocks themselves.
+ */
+function clinvite_block_view($delta = '') {
+	global $user;
+  
+	$block = array();
+	
+	switch ($delta) {
+		case 'invite_a_friend':
+			$nid = clsignup_current_league();
+			$page_contains_league = $nid != 0;
+			
+			if ($page_contains_league && clleague_is_logged_on()) {
+				$signup_open     = clsignup_league_available_for_signup(node_load($nid));
+				
+				$already_player  = clleague_is_player($nid, $user->uid);
+				$is_organizer    = clleague_is_organizer($nid, $user->uid);
+				$is_coordinator  = clleague_is_coordinator($user->uid);
+			
+				if (($already_player || $is_organizer || $is_coordinator) && $signup_open) {
+					$form = drupal_get_form('clsignup_invite_form');
+					
+					$block['subject'] = t('Sign up');  
+					$block['content'] = array ('form' => $form);
+				}
+			}
+			
+			break;    
+	}
+	
+	return $block;
+}
+
+function clsignup_invite_form($form, &$form_state) {
+
+}

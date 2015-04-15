@@ -1,0 +1,6 @@
+name = CL Contact
+description = Add contact forms for Cityleague organizers and coordinators
+core = 7.x
+package = Cityleague
+dependencies[] = clleague
+dependencies[] = clmail

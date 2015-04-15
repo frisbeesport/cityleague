@@ -1,0 +1,291 @@
+<?php
+
+/**
+ * @file
+ * Module file for Cityleague Teams module.
+ */
+
+module_load_include('inc', 'clteams', 'clteams.database');
+module_load_include('inc', 'clteams', 'clteams.api'); 
+module_load_include('inc', 'clteams', 'clteams.deletehooks'); 
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                                 Menu 
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+/**
+ * Implements hook_menu().
+ *
+ * We are providing a default page to illustrate the use of our custom node view
+ * mode that will live at http://example.com/?q=examples/node_example
+ */
+function clteams_menu() {
+  
+	$items["node/%node/teams"] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'Teams',
+		'page callback' => 'clteams_list_page',
+		'page arguments' => array(1),
+		'access callback' => 'clteams_access_team_list_page',
+		'access arguments' => array(1),
+		'file' => 'clteams.list.inc',
+	);
+
+	$items["node/%node/teams/assign"] = array(
+		'type' => MENU_LOCAL_ACTION,
+		'title' => 'Team assignment',
+		'page callback' => 'clteams_assign_page',
+		'page arguments' => array(1),
+		'access callback' => 'clteams_access_team_assign_page',
+		'access arguments' => array(1),
+		'file' => 'clteams.assign.inc',
+	);
+	
+	$items["node/%node/teams/create"] = array(
+		'type' => MENU_LOCAL_ACTION,
+		'title' => 'Create team',
+		'page callback' => 'clteams_create_page',
+		'page arguments' => array(),
+		'access callback' => 'clteams_access_team_create_page',
+		'access arguments' => array(1),
+		'file' => 'clteams.team.create.inc',
+	);
+
+/*	$items["node/%node/teams/team/%"] = array(
+		'type' => MENU_NORMAL_ITEM,
+		'title' => 'View',
+		'page callback' => 'clteams_team_view_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clteams_access_team_view_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clteams.team.view.inc',
+	);*/
+	
+/*	$items["node/%node/teams/team/%/view"] = array(
+		'type' => MENU_DEFAULT_LOCAL_TASK,
+		'title' => 'View',
+	);*/
+	
+	$items["node/%node/teams/team/%/edit"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Edit',
+		'page callback' => 'clteams_team_edit_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clteams_access_team_edit_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clteams.team.edit.inc',
+	);
+	
+	$items["node/%node/teams/team/%/join"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Join',
+		'page callback' => 'clteams_team_join_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clteams_access_team_join_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clteams.team.join.inc',
+	);
+
+	$items["node/%node/teams/team/%/unjoin"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Unjoin',
+		'page callback' => 'clteams_team_unjoin_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clteams_access_team_unjoin_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clteams.team.unjoin.inc',
+	);
+	
+	$items["node/%node/teams/team/%/delete"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Delete',
+		'page callback' => 'clteams_team_delete_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clteams_access_team_delete_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clteams.team.delete.inc',
+	);
+	
+	return $items;
+}
+
+function clteams_access_team_list_page($node) {
+	global $user;
+	return clteams_supports_teams($node->nid) && clleague_access_level_player($user, $node);
+}
+
+function clteams_access_team_assign_page($node) {
+	global $user;
+	return clteams_supports_teams($node->nid) && clleague_access_level_organizer($user, $node);
+}
+
+function clteams_access_team_create_page($node) {
+	global $user;
+	
+	if (clteams_supports_teams($node->nid)) {
+		if (clleague_access_level_organizer($user, $node)) {
+			return true;
+		} elseif (clleague_access_level_player($user, $node)) {
+			$pid = clteams_get_pid_in_league($user->uid, $node->nid);
+			return clteams_is_orphin($pid, $node->nid) && clteams_supports_user_teams($node->nid);
+		}
+	}
+	
+	return false;
+}
+
+function clteams_access_team_view_page($node, $tid) {
+	global $user;
+
+	return clleague_access_level_player($user, $node) && clteams_supports_teams($node->nid);
+}
+	
+function clteams_access_team_edit_page($node, $tid) {
+	global $user;
+
+	if ($node->nid != clteams_get_league_for_team($tid)) {
+		return false;
+	}
+	
+	if (clteams_supports_teams($node->nid)) {
+		if (clleague_access_level_organizer($user, $node)) {
+			return true;
+		} elseif (clleague_access_level_player($user, $node)) {
+			$pid = clteams_get_pid_in_league($user->uid, $node->nid);
+			return clteams_is_team_member($pid, $tid) && clteams_supports_user_teams($node->nid);
+		} 
+	} 
+	
+	return false;
+}
+
+function clteams_access_team_join_page($node, $tid) {
+	global $user;
+	
+	if ($node->nid != clteams_get_league_for_team($tid)) {
+		return false;
+	}
+	
+	$pid = clteams_get_pid_in_league($user->uid, $node->nid);
+	
+	return clleague_access_level_player($user, $node)
+	    && clteams_supports_teams($node->nid)
+		&& clteams_supports_user_teams($node->nid)
+		&& clleague_is_player($node->nid, $user->uid)
+		&& clteams_is_orphin($pid, $node->nid);
+}
+
+function clteams_access_team_unjoin_page($node, $tid) {
+	global $user;
+
+	if ($node->nid != clteams_get_league_for_team($tid)) {
+		return false;
+	}
+
+	$pid = clteams_get_pid_in_league($user->uid, $node->nid);
+	
+	return clleague_access_level_player($user, $node)
+	    && clteams_supports_teams($node->nid)
+		&& clleague_is_player($node->nid, $user->uid)
+		&& clteams_supports_user_teams($node->nid)
+		&& clteams_is_team_member($pid, $tid);
+}
+
+function clteams_access_team_delete_page($node, $tid) {
+	return clteams_access_team_edit_page($node, $tid);
+}
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                                Alter
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ 
+function clteams_menu_alter(&$items) {
+	$items['node/%node/players']['access callback'] = 'clteams_access_players_tab';
+}
+
+function clteams_access_players_tab($node) {
+	global $user;
+	
+    return clleague_access_level_organizer($user, $node) ||
+	(clleague_access_level_player($user, $node) && !clteams_supports_teams($node->nid));
+}
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                               Blocks
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+/**
+ * Implements hook_block_info().
+ */
+function clteams_block_info() {
+	$blocks['reminder_team'] = array(
+		'info' => t('Reminder team'),
+		'region' => 'sidebar_first',  
+	);
+
+	return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ *
+ * This hook generates the contents of the blocks themselves.
+ */
+function clteams_block_view($delta = '') {
+	global $user;
+  
+	$block = array();
+	
+	switch ($delta) {
+		case 'reminder_team':
+			if (clteams_reminder_team_access()) {
+				
+				$title = t('Pick a team!');
+		
+				$message = t('You are encouraged to create or join your own team in this Cityleague.');
+				
+				$nid = arg(1);				
+				$href = url('node/' . $nid . '/teams');
+				 
+				$button = '<a href="' . $href . '" class="btn btn-success btn-block">' . t('Check out the teams') . '</a>';
+				
+				$renderable['content'] = array(
+				'#type' => 'markup',
+					'#markup' => '<span class="script-font">' . $title . '</span>' .
+					              '<p>' . $message . '</p>' .
+								  $button,
+				);
+		
+				return $renderable;				
+			}
+			break;    
+	}
+	
+	return $block;
+}
+
+function clteams_reminder_team_access() {
+	global $user;
+	
+	// Show only if 
+	// - user logged on 
+	// - currently showing league page	
+	// - user signed up for current league
+	
+	// - currently not showing team page
+	// - league supports manual team selection
+	
+	$nid = arg(1);
+	$teams = arg(2) == 'teams';
+	$node = node_load($nid);
+	
+	$pid = clleague_retrieve_pid_from_nid_and_uid($nid, $user->uid);
+	
+	if (!$node) return false;
+	return clleague_access_level_player($user, $node) && clleague_is_player($nid, $user->uid) &&
+	      !$teams && clteams_is_orphin($pid, $nid) &&
+		  clteams_supports_user_teams($nid);
+}
+

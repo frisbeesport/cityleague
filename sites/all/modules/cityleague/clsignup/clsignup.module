@@ -1,0 +1,195 @@
+<?php
+
+/**
+ * @file
+ * Module file for Cityleage Signup module.
+ */
+
+module_load_include('inc', 'clsignup', 'clsignup.database');
+module_load_include('inc', 'clsignup', 'clsignup.api'); 
+module_load_include('inc', 'clsignup', 'clsignup.signup'); 
+module_load_include('inc', 'clsignup', 'clsignup.deletehooks'); 
+
+function clsignup_menu() {
+	$items['node/%node/editsignup/resign'] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Resign',
+		'page callback' => 'clsignup_resign_page',
+		'page arguments' => array(1),
+		'access callback' => 'clsignup_resign_access',
+		'access arguments' => array(1),
+		'file' => 'clsignup.resign.inc',
+	);
+
+	$items['node/%node/editsignup'] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'Edit registration',
+		'page callback' => 'clsignup_edit_registration_page',
+		'page arguments' => array(1),
+		'access callback' => 'clsignup_resign_access',
+		'access arguments' => array(1),
+		'file' => 'clsignup.registration.inc',
+	);
+	
+	$items['node/%node/completesignup'] = array(
+		'title' => 'Complete sign up', 
+		'page callback' => 'clsignup_initial_registration_page', 
+		'page arguments' => array(1), 
+		'access callback' => 'clsignup_initial_registration_access', 
+		'access arguments' => array(1), 
+		'type' => MENU_CALLBACK,
+		'file' => 'clsignup.registration.inc',
+	);
+	
+	$items['node/%node/signup'] = array(
+		'title' => 'Sign up', 
+		'page callback' => 'clsignup_league_registration_page', 
+		'page arguments' => array(1), 
+		'access callback' => 'clsignup_league_registration_access', 
+		'access arguments' => array(1), 
+		'type' => MENU_CALLBACK,
+		'file' => 'clsignup.registration.inc',
+	);
+	
+	return $items;
+}
+
+function clsignup_menu_alter(&$items) {  
+	$items['user/reset/%/%/%'] = array(
+		'title' => 'Reset password', 
+		'page callback' => 'clsignup_onetimelogin_page', 
+		'page arguments' => array(2, 3, 4), 
+		'access callback' => TRUE, 
+		'type' => MENU_CALLBACK, 
+		'file' => 'clsignup.onetimelogin.inc',
+		'file path' => drupal_get_path('module', 'clsignup'),
+	);
+}
+
+function clsignup_league_registration_access($node) {	
+	global $user;
+	
+	$already_player   = clleague_is_player($node->nid, $user->uid);
+	$already_signedup = clsignup_db_get_signed_up_league($user->uid) == $node->nid;
+		
+	return clleague_access_level_user($user, $node) && !$already_player && !$already_signedup;  
+	// note: access is allowed while signup is closed and / or maximum number of participants has been reached
+	//       because the complete registration page should inform the user of this situation
+}
+
+function clsignup_initial_registration_access($node) {	
+	global $user;
+	
+	return clleague_access_level_user($user, $node) && clsignup_db_get_signed_up_league($user->uid) == $node->nid;
+	// note: access is allowed while signup is closed and / or maximum number of participants has been reached
+	//       because the complete registration page should inform the user of this situation
+}
+
+
+function clsignup_resign_access($node) {
+	global $user;
+	
+	return clleague_access_level_player($user, $node) && 
+		clleague_is_player($node->nid, $user->uid) &&
+		clleague_signoff_open($node->nid);
+}
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                               Blocks
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+/**
+ * Implements hook_block_info().
+ */
+function clsignup_block_info() {
+	$blocks['primary_signup'] = array(
+		'info' => t('Primary signup'),
+		'region' => 'sidebar_first',  
+	);
+
+	$blocks['secondary_signup'] = array(
+		'info' => t('Secondary signup'),
+		'region' => 'sidebar_first',  
+	);
+	
+	$blocks['complete_signup'] = array(
+		'info' => t('Complete signup'),
+		'region' => 'sidebar_first',  
+	);
+
+	return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ *
+ * This hook generates the contents of the blocks themselves.
+ */
+function clsignup_block_view($delta = '') {
+	global $user;
+  
+	$block = array();
+	
+	switch ($delta) {
+		case 'primary_signup':
+			if (clsignup_primary_signup_access()) {
+				$form = drupal_get_form('clsignup_signup_form');
+
+				//$block['subject'] = t('Sign up');  
+				$block['content'] = array ('form' => $form);				
+			}
+			break;    
+		case 'secondary_signup':
+			if (clsignup_secondary_signup_access()) {
+				$form = drupal_get_form('clsignup_signup_form_specific');
+
+				//$block['subject'] = t('Sign up');  
+				$block['content'] = array ('form' => $form);
+
+			}
+			break;
+		case 'complete_signup':
+			if (clsignup_complete_signup_access()) {
+				//$block['subject'] = t('Complete your sign up');  
+				$block['content'] = clsignup_complete_registration_block();
+			}
+			break;
+	}
+	
+	return $block;
+}
+
+/**
+ * Implements hook_user_login
+**/
+function clsignup_user_login(&$edit, $account) {
+	$sid = clsignup_db_get_signed_up_league($account->uid);
+
+	if ($sid != 0) {
+		$href = 'node/' . $sid . '/completesignup';
+		$edit['redirect'] = $href;			
+	}
+}
+
+function clsignup_complete_registration_block()	{
+	global $user;
+	
+	$nid = clsignup_db_get_signed_up_league($user->uid);
+	$league = node_load($nid);
+	
+	$href = url('node/' . $nid . '/completesignup');
+	$message = '<span class="script-font">' . t('Complete your sign up') . '</span>';
+	
+	$message = '<p>' . t('You have almost signed up for @league.', array('@league' => $league->title));
+	$message .= ' ' . t('To be able to play, you need to complete your registration first.') . '</p>';
+	
+	$button = '<a href="' . $href . '" class="btn-success btn-block btn">' . t("Complete your registration") . '</a>';
+	
+	$table = array(
+		'#markup' => '<p>' . $message . '</p><p>' . $button . '</p>',
+	);
+	
+	return $table;
+}
+

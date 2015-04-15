@@ -1,0 +1,178 @@
+<?php
+
+/**
+ * @file
+ * Module file for Cityleage module.
+ */
+ 
+module_load_include('inc', 'clleague', 'clleague.api'); 
+module_load_include('inc', 'clleague', 'clleague.blocks');
+module_load_include('inc', 'clleague', 'clleague.contenttype'); 
+module_load_include('inc', 'clleague', 'clleague.deletehooks'); 
+
+//function clleague_user_login(&$edit, $account) {  
+//	$alias = drupal_get_path_alias($_GET['q']);  
+  
+//	if (in_array('Member', $account->roles)) {  
+		//$edit['redirect'] = $alias;
+	//}  
+//}   
+
+function clleague_url_inbound_alter(&$path, $original_path, $path_language) {
+
+	$url_parts = explode('/', $path);
+	if (sizeof($url_parts) == 0) return;
+	$potential_city = strtolower($url_parts[0]);
+
+	$active_leagues = clleague_active_leagues();
+	if (array_key_exists($potential_city, $active_leagues))
+	{
+		$url_parts[0] = 'node/' . $active_leagues[$url_parts[0]];
+		$path = implode('/', $url_parts);
+	}
+}
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                                 Menu 
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+/**
+ * Implements hook_menu().
+ *
+ * We are providing a default page to illustrate the use of our custom node view
+ * mode that will live at http://example.com/?q=examples/node_example
+ */
+function clleague_menu() {
+	$items["node/%node/players/player/%/remove"] = array(
+		'type' => MENU_NORMAL_ITEM,
+		'title' => 'Remove player',
+		'page callback' => 'clleague_player_remove_page',
+		'page arguments' => array(1, 4),
+		'access callback' => 'clleague_access_player_remove_page',
+		'access arguments' => array(1, 4),
+		'file' => 'clleague.player.remove.inc',
+	);
+	
+	
+	
+	return $items;
+}
+
+function clleague_access_player_remove_page($node, $pid) {
+	global $user;
+	
+	$allowed = clleague_access_level_organizer($user, $node); 
+	$sensible = clleague_is_player_pid($node->nid, $pid);
+	
+	return $allowed && $sensible;
+}
+
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                        Access rights 
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+/**
+ * Implements hook_node_access().
+ */
+function clleague_node_access($node, $op, $user) {
+
+	switch ($op) {
+		case 'create':
+			if ($node == 'league') {
+				if (clleague_access_level_coordinator($user)) { 
+					return NODE_ACCESS_ALLOW;
+				} else {
+					return NODE_ACCESS_DENY;
+				}
+			} else {
+				return NODE_ACCESS_IGNORE;
+			}
+		case 'delete':
+			if ($node->type == 'league') {
+				if (clleague_access_level_coordinator($user)) {
+					return NODE_ACCESS_ALLOW;
+				} else {
+					return NODE_ACCESS_DENY;
+				}
+			} else {
+				return NODE_ACCESS_IGNORE;
+			}
+		case 'update':
+			if ($node->type == 'league') {
+				if (clleague_access_level_organizer($user, $node)) {
+					return NODE_ACCESS_ALLOW;
+				} else {
+					return NODE_ACCESS_DENY;
+				}
+			} else {
+				return NODE_ACCESS_IGNORE;
+			}
+		case 'view':
+			if ($node->type == 'league') {
+				if (clleague_access_level_guest($user, $node)) {
+					return NODE_ACCESS_ALLOW;
+				} else {
+					return NODE_ACCESS_DENY;
+				}
+			} else {
+				return NODE_ACCESS_IGNORE;
+			}
+	}
+	
+	return NODE_ACCESS_IGNORE;
+}
+
+/* 
+ * Implements hook_permission().
+ */
+function clleague_permission() {
+	return array(
+		'coordinate leagues' => array(
+			'title' => 'coordinate leagues',
+			'description' => 'coordinate leagues',
+		),
+	);
+}
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                         Update hooks 
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function clleague_user_update(&$edit, $account, $category) {
+	// Alter nickname and level for open city leagues when user updates account
+
+	if ($category == 'account') {
+		// Retrieve user nickname
+		$values = field_get_items('user', $account, 'field_last_used_nickname');
+		$nickname = $values[0]['value'];	
+		$nickname = substr($nickname, 0, 40);
+		
+		// Retrieve user level
+		$values = field_get_items('user', $account, 'field_last_used_level');
+		$level = $values[0]['value'];
+
+		// Find all open leagues for the user (leagues that have not been finalized)
+		$query = db_select('league_participants', 'ps')
+			->fields('ps', array('pid'))
+			->condition('ps.uid', $account->uid);
+		$query->join('field_data_field_finalized', 'fin', 'ps.nid=fin.entity_id');
+		$query->fields('fin', array('field_finalized_value'))
+			->condition('fin.field_finalized_value', 0);
+		$result = $query->execute();
+		
+		// Update nickname and level in the open leagues		
+		foreach ($result as $row) {
+			db_merge('league_participants')
+				->key(array('pid' => $row->pid))
+				->fields(array(
+					'nickname' => $nickname,
+					'level' => $level,
+				))
+				->execute();
+		}
+	}
+}
+
+
+
+

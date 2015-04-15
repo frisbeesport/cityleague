@@ -1,0 +1,25 @@
+<!-- Signup box -->
+<div class="signupbox hidden-xs">
+  <form class="form-inline" role="form">
+
+    <span class="script-font">Speel mee in je eigen stad</span>
+    <p><small>Je ontvangt eenmalig een email met daarin verdere informatie en een link om je inschrijving definitief te maken.</small></p>
+
+    <div class="form-group">
+      <select class="form-control" placeholder="Kies een Cityleague">
+        <option>Kies een league:</option>
+        <option>Amsterdam</option>
+        <option>Utrecht</option>
+        <option>Groningen</option>
+        <option>Nijmegen</option>
+        <option>Den Haag</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+    </div>
+    <button type="submit" class="btn btn-block btn-success">Schrijf in!</button>
+
+  </form>
+</div>

@@ -1,0 +1,27 @@
+.form-group {
+  width:100%;
+}
+
+
+.control-group {
+  margin-bottom:15px;
+}
+
+
+.form-item, .form-actions {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.form-submit {
+  margin-left: 10px; }
+
+.form-submit:first-child {
+  margin-left: 0px; }
+
+.btn-block {
+  margin-left: 0; }
+
+div.error {
+  background-image: none;
+  background-color: inherit; }

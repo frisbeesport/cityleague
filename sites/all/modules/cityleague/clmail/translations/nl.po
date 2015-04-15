@@ -1,0 +1,120 @@
+# $Id$
+#
+# Dutch translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  clmail.addresses.inc: n/a
+#  clmail.sendmail.inc: n/a
+#  clmail.unsubscribe.inc: n/a
+#  clmail.module: n/a
+#  clmail.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-03-24 21:30+0100\n"
+"PO-Revision-Date: 2014-03-24 21:37+0100\n"
+"Last-Translator: Ron van Kesteren <cityleague@frisbeesport.nl>\n"
+"Language-Team: Dutch <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: clmail.addresses.inc:11
+msgid ""
+"These addresses are from players that have agreed to receive cityleague "
+"related messages. Be careful not to spam and please use BCC."
+msgstr ""
+"Deze adressen zijn van spelers die hebben ingestemd met het ontvangen van "
+"cityleague gerelateerde berichten. Let erop ze niet te spammen en gebruik "
+"BCC."
+
+#: clmail.addresses.inc:17
+msgid "Adresses"
+msgstr "Adressen"
+
+#: clmail.sendmail.inc:18
+msgid "Mail all participants that have agreed to receive messages by email."
+msgstr ""
+"Mail alle spelers die hebben ingestemd met het ontvangen van berichten per "
+"email."
+
+#: clmail.sendmail.inc:23
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: clmail.sendmail.inc:24
+msgid "The subject will automatically be prefixed with the [Cityleague] tag."
+msgstr "Het onderwerp krijgt automatisch het [Cityleague] voorvoegsel."
+
+#: clmail.sendmail.inc:32
+msgid "Body"
+msgstr "Inhoud"
+
+#: clmail.sendmail.inc:33
+msgid ""
+"A link to unsubscribe from these messages will be added to the bottom of the "
+"email."
+msgstr ""
+"Een link om uit te schrijven voor deze berichten wordt toegevoegd onderaan "
+"de email."
+
+#: clmail.sendmail.inc:41
+msgid "Send"
+msgstr "Versturen"
+
+#: clmail.sendmail.inc:76
+msgid "Whoosh! The email has been sent."
+msgstr "Whoosh! De email is verstuurd."
+
+#: clmail.sendmail.inc:124
+msgid "Unsubscribe from cityleague related messages."
+msgstr "Schrijf uit voor cityleague gerelateerde berichten."
+
+#: clmail.sendmail.inc:127
+msgid "This mail could not be sent to: "
+msgstr "Deze mail kon niet verstuurd worden aan:"
+
+#: clmail.unsubscribe.inc:10
+msgid ""
+"You have unsubscribed from cityleague related messages. Note that if you are "
+"playing in a league at this moment, we are now no longer sending you "
+"information regarding this league. Please keep in touch."
+msgstr ""
+"Je bent uitgeschreven voor cityleague gerelateerde berichten. Als je op dit "
+"moment in een league speelt wordt je niet meer via email op de hoogte "
+"gehouden. Blijf dus zelf de website volgen."
+
+#: clmail.unsubscribe.inc:18
+msgid ""
+"Unfortunately, we were not able to unsubscribe you from cityleague related "
+"messages."
+msgstr ""
+"Helaas is het niet gelukt je uit te schrijven voor cityleague gerelateerde "
+"berichten."
+
+#: clmail.module:20
+msgid "Unsubscribe for e-mail"
+msgstr "Uitschrijven voor emailberichten"
+
+#: clmail.module:31
+msgid "Mail players"
+msgstr "Email spelers"
+
+#: clmail.module:42
+msgid "Export email addresses"
+msgstr "Exporteer emailadressen"
+
+#: clmail.info:0
+msgid "CL Mail"
+msgstr "CL Mail"
+
+#: clmail.info:0
+msgid "Add mail functionality for Cityleague organizers"
+msgstr "Voeg email functionaliteit toe voor Cityleague organisators"
+
+#: clmail.info:0
+msgid "Cityleague"
+msgstr "Cityleague"

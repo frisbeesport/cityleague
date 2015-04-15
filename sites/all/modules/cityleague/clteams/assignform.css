@@ -1,0 +1,75 @@
+ .form-wrapper {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+  .fieldset-wrapper {	
+	padding: 5px;
+}
+
+ label  {
+	clear:both;
+	float: left;
+	width: 300px;
+	text-align: left;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+
+textarea, 
+form-text {
+	
+}
+
+.description, 
+grippy {
+	margin-left: 310px;
+	display: block;
+	
+}
+
+.form-checkbox {
+	clear: both;
+	float: left;
+	width: 35px;
+	margin-left:300px;
+	padding-right: 10px;
+}
+
+.form-radios {
+	display: box;
+	overflow:auto;
+}
+
+.form-type-radio {
+	overflow:auto;
+	float: left;
+	width: 450px;
+}
+
+.form-radio {
+	overflow:auto;
+	clear: none;
+	float: left;
+	width: 35px;
+	padding-right: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+label.option {
+	clear: none;
+	text-align: left;
+	padding-right: 0px;
+	font-weight: normal;
+	width:400px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.form-submit {
+	float: right;
+}
+

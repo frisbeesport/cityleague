@@ -1,0 +1,43 @@
+/* Social icons */
+
+.social-icons {
+	height: 28px;
+	margin:0;
+	font-size: 0;
+}
+
+.social-icons li {
+	list-style: none;
+	margin-right: 5px;
+	float: right;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	line-height: 18px;
+}
+
+.social-icons li a {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: block;
+	height: 28px;
+	width: 28px;
+}
+
+.social-icons li:hover {
+	background-position: 0 -38px;
+}
+
+.facebook {
+	background: url('../images/icons/iconfacebook.png') no-repeat;
+}
+
+.linkedin {
+	background: url('../images/icons/iconlinkedin.png') no-repeat;
+}
+
+.twitter {
+	background: url('../images/icons/icontwitter.png') no-repeat;
+}

@@ -1,0 +1,91 @@
+# $Id$
+#
+# Dutch translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  clleague.blocks.inc: n/a
+#  clleague.player.remove.inc: n/a
+#  clleague.module: n/a
+#  clleague.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-03-24 21:30+0100\n"
+"PO-Revision-Date: 2014-03-24 22:02+0100\n"
+"Last-Translator: Ron van Kesteren <cityleague@frisbeesport.nl>\n"
+"Language-Team: Dutch <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: clleague.blocks.inc:26
+msgid "User menu"
+msgstr "Spelersmenu"
+
+#: clleague.blocks.inc:122
+msgid "Coordinate"
+msgstr "Coordinator"
+
+#: clleague.blocks.inc:128
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: clleague.blocks.inc:131
+msgid "Create new league"
+msgstr "Nieuwe league"
+
+#: clleague.blocks.inc:134
+msgid "Create new user"
+msgstr "Nieuwe gebruiker"
+
+#: clleague.blocks.inc:156
+msgid "My leagues"
+msgstr "Mijn leagues"
+
+#: clleague.blocks.inc:163
+msgid "Organizing"
+msgstr "Organisatie"
+
+#: clleague.blocks.inc:178
+msgid "Playing"
+msgstr "Spelen"
+
+#: clleague.player.remove.inc:26
+msgid "Are you sure you want to remove player @player from the league @league?"
+msgstr ""
+"Weet je zeker dat je speler @player wilt verwijderen uit de league @league?"
+
+#: clleague.player.remove.inc:36
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: clleague.player.remove.inc:44
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: clleague.player.remove.inc:53
+msgid "The player has not been removed."
+msgstr "De speler is niet verwijderd."
+
+#: clleague.player.remove.inc:68
+msgid "The player has been removed."
+msgstr "De speler is verwijderd."
+
+#: clleague.module:34
+msgid "Remove player"
+msgstr "Verwijder speler"
+
+#: clleague.info:0
+msgid "CL League"
+msgstr "CL League"
+
+#: clleague.info:0
+msgid "Basic Cityleagues"
+msgstr "Basis Cityleagues"
+
+#: clleague.info:0
+msgid "Cityleague"
+msgstr "Cityleague"

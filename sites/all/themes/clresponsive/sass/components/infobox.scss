@@ -1,0 +1,23 @@
+
+.buttons .btn {
+  margin-left: 15px; }
+
+h2.panel-title {
+  font-weight: bold; }
+
+.borderless > tbody > tr > td, .table > tbody > tr > th, .table > tbody > tr, .table > tbody {
+  padding: 0px;
+  border: none; }
+
+tr.odd {
+  background-color: inherit; }
+
+tr.even {
+  background-color: inherit; }
+
+th a {
+  color: #000; }
+
+th img {
+  margin-left: 5px;
+  padding-bottom: 5px; }

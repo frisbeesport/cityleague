@@ -1,0 +1,112 @@
+<?php
+
+/**
+ * @file
+ * Module file for Cityleague Contact module.
+ */
+
+module_load_include('inc', 'clcontact', 'clcontact.league');
+module_load_include('inc', 'clcontact', 'clcontact.general'); 
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                                 Menu
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** 
+ * Implements hook_menu().
+ */
+/*function clcontact_menu() {
+ 
+	// League specific contact form
+	$items["node/%node/contact"] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'We love to hear from you!',
+		'page callback' => 'clcontact_league_page',
+		'page arguments' => array(1),
+		'access callback' => 'clcontact_league_access',
+		'access arguments' => array(1),
+		'file' => 'clcontact.league.inc',
+	);
+	
+	// Overall contact form
+	$items["contact"] = array(
+		'type' => MENU_CALLBACK,
+		'title' => 'Contact us',
+		'page callback' => 'clcontact_general_page',
+		'access callback' => 'clcontact_general_access',
+		'file' => 'clcontact.general.inc',
+	);
+	
+	return $items;
+}*/
+
+
+function clcontact_general_access() {
+	return true; 
+}
+
+function clcontact_league_access($node) {
+	return clcontact_get_league_email($node) != null;
+}
+
+/** //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*                                                                                                                  Api
+*/ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function clcontact_get_league_email($node) {
+	return clleague_get_league_value($node->nid, 'field_league_email');
+}
+
+/** ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ *                                                                                                               Blocks
+ */ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+/**
+ * Implements hook_block_info().
+ */
+function clcontact_block_info() {
+	$blocks['league_contact'] = array(
+		'info' => t('League contact form'),
+		'region' => 'sidebar_first',  
+	);
+
+	$blocks['general_contact'] = array(
+		'info' => t('General contact form'),
+		'region' => 'sidebar_first',  
+	);
+
+	return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function clcontact_block_view($delta = '') {
+	global $user;
+  
+	$block = array();
+	
+	switch ($delta) {
+		case 'league_contact':
+			if (arg(2) != null) return $block;
+			
+			$nid = arg(1);
+			$node = node_load($nid);
+			if (clcontact_get_league_email($node) == null) return $block;
+			
+			$form = drupal_get_form('clcontact_league_form', $node);
+
+			//$block['subject'] = t('Sign up');  
+			$block['content'] = array ('form' => $form);				
+			break;    
+		case 'general_contact':
+			$form = drupal_get_form('clcontact_general_form');
+
+			//$block['subject'] = t('Sign up');  
+			$block['content'] = array ('form' => $form);
+			break;
+	}
+	
+	return $block;
+}
+

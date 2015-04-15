@@ -1,0 +1,5 @@
+name = CL Mail 
+description = Add mail functionality for Cityleague organizers
+core = 7.x
+package = Cityleague
+dependencies[] = clleague

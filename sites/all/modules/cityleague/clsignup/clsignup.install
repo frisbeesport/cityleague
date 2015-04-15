@@ -1,0 +1,35 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the clsignup module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function clsignup_uninstall() {
+	// Do nothing
+}
+
+/**
+ * Implements hook_install().
+ */
+function clsignup_install() {
+	// Do nothing
+}
+
+/**
+ * Implements hook_schema().
+ */
+function clsignup_schema() {
+	$schema['league_signups'] = array(
+		'description' => 'The table containing the initial sign ups for each user.',
+		'fields' => array(
+			'uid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),
+			'nid'       => array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE),
+    	),
+		'primary key' => array('uid'),
+	);
+	
+	return $schema;
+}

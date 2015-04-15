@@ -1,0 +1,58 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the clnfb module.
+ */
+
+ /**
+ * Implements hook_uninstall().
+ */
+function clnfb_uninstall() {
+	// Nothing to uninstall
+}
+
+/**
+ * Implements hook_schema().
+ */ 
+function clnfb_schema() {
+	$fields = clnfb_schema_fields();
+	$fields['pid'] = array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE);
+	$fields['uid'] = array('type' => 'int', 'unsigned' => TRUE, 'not null' => FALSE);
+	
+	$schema['league_participants_nfbmembership'] = array(
+		'description' => 'The table describing NFB membership information for all Cityleague participants.',
+		'fields' => $fields,
+		'primary key' => array('pid'),
+	);
+	
+	$fields = clnfb_schema_fields();
+	$fields['uid'] = array('type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE);
+	
+	$schema['user_nfbmembership'] = array(
+		'description' => 'The table describing NFB membership information for all users (used for defaults).',
+		'fields' => $fields,
+		'primary key' => array('uid'),
+	);
+	
+	return $schema;
+}
+
+function clnfb_schema_fields() {
+	return array(
+		'nfbmember'      => array('type' => 'int', 'not null' => FALSE, 'default' => 0),
+		
+		'surname'        => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),	
+		'callname'       => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),
+		'address'        => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),
+		'sex'            => array('type' => 'varchar', 'length' =>  1, 'not null' => FALSE),
+		'postal'         => array('type' => 'varchar', 'length' => 10, 'not null' => FALSE),
+		'city'           => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),
+		'phone'          => array('type' => 'varchar', 'length' => 20, 'not null' => FALSE),
+		'email'          => array('type' => 'varchar', 'length' => 80, 'not null' => FALSE),
+		'nationality'    => array('type' => 'varchar', 'length' => 20, 'not null' => FALSE),
+		'birthday'       => array('type' => 'int', 'not null' => FALSE, 'unsigned' => FALSE),
+		
+		'repr_fullname'  => array('type' => 'varchar', 'length' => 40, 'not null' => FALSE),
+	);
+}
+

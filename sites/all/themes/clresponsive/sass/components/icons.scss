@@ -1,0 +1,36 @@
+/* Iconlists */
+
+.flagicon {
+	width:18px;
+	height:12px;
+}
+
+ul.iconlist {
+	list-style-type:none;
+	padding-left: 0px;
+	line-height: 1.8em;
+}
+
+
+li.iconlink {
+	background-image:url('../images/icons/iconlink.jpg');
+	background-repeat:no-repeat;
+	background-position:2px 5px; 	
+	padding-left:35px;
+}
+
+
+li.icondoc {
+	background-image:url('../images/icons/icondoc.jpg');
+	background-repeat:no-repeat;
+	background-position:2px 2px; 	
+	padding-left:35px;
+}
+
+
+li.iconzip {
+	background-image:url('../images/icons/iconzip.jpg');
+	background-repeat:no-repeat;
+	background-position:0px 5px; 	
+	padding-left:35px;
+}

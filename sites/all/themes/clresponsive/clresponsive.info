@@ -1,0 +1,29 @@
+
+name = clresponse
+description = Responsive theme for the Cityleague website
+core = 7.x
+
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
+
+stylesheets[all][] = css/responsive.css
+
+regions[header] = Header
+regions[help] = Help
+
+regions[topbar] = Top bar
+
+regions[menubar] = Menu bar
+regions[submenubar] = Submenu bar
+
+regions[actionbox] = Action Box
+
+regions[menubar] = Menu bar
+
+regions[highlighted] = Highlighted
+
+regions[content] = Content
+regions[secondary] = Secondary Content
+
+regions[footer] = Footer
+
+

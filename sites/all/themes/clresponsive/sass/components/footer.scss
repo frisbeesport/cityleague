@@ -1,0 +1,46 @@
+/* Footer */
+
+footer {
+  color: $middle-grey;
+  background: $dark-grey;
+
+  overflow: hidden;
+
+  margin-top:30px;
+  padding-bottom: 15px;
+}
+
+footer a {
+  color: #fff;
+}
+
+
+.footer-header {
+  color: #fff;
+  font-size: 2.0em;
+  font-weight: 300;
+
+  margin-top: 30px;
+}
+
+footer hr {
+  border-top: 1px solid $darkish-grey;
+}
+
+.whitelogo {
+  @include border-radius(5px);
+
+	background-color: #FFF;
+	
+  padding: 10px;
+  margin: 30px 0px 0px 0px;
+
+  max-width: 45%;
+}
+
+.darklogo {
+  padding: 10px;
+  margin: 30px 30px 0px 0px;
+
+  max-width: 45%;
+}

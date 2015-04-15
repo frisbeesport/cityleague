@@ -1,0 +1,52 @@
+<?php
+
+
+module_load_include('inc', 'clnfb', 'clnfb.database');
+module_load_include('inc', 'clnfb', 'clnfb.deletehooks'); 
+module_load_include('inc', 'clnfb', 'clnfb.registration'); 
+module_load_include('inc', 'clnfb', 'clnfb.resign'); 
+
+/**
+ * @file
+ * Module file for Cityleague NFB membership module.
+ */
+
+ /**
+ * Implements hook_menu().
+ */
+function clnfb_menu() {
+	$items["node/%node/players/export"] = array(
+		'type' => MENU_LOCAL_ACTION,
+		'title' => 'Export player details',
+		'page callback' => 'clnfb_export_page',
+		'page arguments' => array(1),
+		'access callback' => 'clnfb_access_export_page',
+		'access arguments' => array(1),
+		'file' => 'clnfb.export.inc',
+	);
+	
+	// Menu items for adding players 
+	$items["node/%node/players"] = array(
+		'type' => MENU_LOCAL_TASK,
+		'title' => 'Player list',
+		'page callback' => 'clnfb_players_page',
+		'page arguments' => array(1),
+		'access callback' => 'access_players_tab',
+		'access arguments' => array(1),
+		'file' => 'clnfb.players.inc',
+	);
+	
+	return $items;
+}
+
+function clnfb_access_export_page($node) {
+	global $user;
+	
+	return clleague_access_level_organizer($user, $node);
+}
+
+function access_players_tab($node) {
+	global $user;
+	
+    return clleague_access_level_player($user, $node);
+}

@@ -1,0 +1,9 @@
+name = CL Dashboard
+description = Add dashboard for Cityleague organizers and coordinators
+core = 7.x
+package = Cityleague
+dependencies[] = clleague
+dependencies[] = clsignup
+dependencies[] = clmail
+dependencies[] = clteams
+dependencies[] = clnfb

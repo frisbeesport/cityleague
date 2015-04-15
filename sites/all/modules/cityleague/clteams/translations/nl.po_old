@@ -1,0 +1,226 @@
+# $Id$
+#
+# Dutch translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  clteams.assign.inc: n/a
+#  clteams.list.inc: n/a
+#  clteams.team.view.inc: n/a
+#  clteams.module: n/a
+#  clteams.team.join.inc: n/a
+#  clteams.team.unjoin.inc: n/a
+#  clteams.team.create.inc: n/a
+#  clteams.team.edit.inc: n/a
+#  clteams.team.delete.inc: n/a
+#  clteams.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-06-05 18:29+0200\n"
+"PO-Revision-Date: 2013-06-05 19:07+0100\n"
+"Last-Translator: Ron van Kesteren <cityleague@frisbeesport.nl>\n"
+"Language-Team: Dutch <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: clteams.assign.inc:18
+msgid "Alter the team assignment below."
+msgstr "Wijzig de teamindeling hieronder."
+
+#: clteams.assign.inc:31
+msgid "Apply"
+msgstr "Toepassen"
+
+#: clteams.assign.inc:45;87 clteams.list.inc:139
+msgid "no team"
+msgstr "geen team"
+
+#: clteams.assign.inc:56;100 clteams.list.inc:60;117 clteams.team.view.inc:32
+msgid "Level"
+msgstr "Niveau"
+
+#: clteams.assign.inc:64
+msgid "This team does not have any players yet."
+msgstr "Dit team heeft nog geen spelers."
+
+#: clteams.assign.inc:92 clteams.list.inc:159
+msgid "Players without a team"
+msgstr "Spelers zonder team"
+
+#: clteams.assign.inc:126
+msgid "The team assignment has been changed!"
+msgstr "De teamindeling is gewijzigd!"
+
+#: clteams.list.inc:10
+msgid "These are the teams that play in the league."
+msgstr "Dit zijn de teams die in deze league spelen."
+
+#: clteams.list.inc:55;112 clteams.team.view.inc:27
+msgid "Player name"
+msgstr "Spelersnaam"
+
+#: clteams.list.inc:91 clteams.module:56;66
+msgid "View"
+msgstr "Weergeven"
+
+#: clteams.list.inc:92 clteams.team.join.inc:34 clteams.module:81
+msgid "Join"
+msgstr "Instappen"
+
+#: clteams.list.inc:93 clteams.team.unjoin.inc:34 clteams.module:91
+msgid "Unjoin"
+msgstr "Uitstappen"
+
+#: clteams.list.inc:102 clteams.team.view.inc:63
+msgid "This team does not have any players yet"
+msgstr "Dit team heeft nog geen spelers."
+
+#: clteams.list.inc:162
+msgid "All players are part of a team"
+msgstr "Alle spelers zitten in een team"
+
+#: clteams.team.create.inc:17
+msgid "Create a new team for @league. Please enter the team information below."
+msgstr "Maak een nieuw team voor @league. Vul hieronder de teaminformatie in."
+
+#: clteams.team.create.inc:24 clteams.team.edit.inc:29
+msgid "Team name"
+msgstr "Teamnaam"
+
+#: clteams.team.create.inc:25
+msgid "The name of the team within the league."
+msgstr "De naam van het team binnen de league."
+
+#: clteams.team.create.inc:34 clteams.team.edit.inc:39
+#: clteams.team.view.inc:13
+msgid "Color"
+msgstr "Kleur"
+
+#: clteams.team.create.inc:35 clteams.team.edit.inc:40
+msgid "The color in which the team plays."
+msgstr "De (shirt)kleur waarin je team speelt."
+
+#: clteams.team.create.inc:44
+msgid "Create"
+msgstr "Aanmaken"
+
+#: clteams.team.create.inc:60 clteams.team.edit.inc:65
+msgid ""
+"There is already a team with this name in the league. That is going to be "
+"confusing. Please choose a different name for your team."
+msgstr ""
+"Er is al een team met deze naam in de league. Dat wordt verwarrend. Kies een "
+"andere naam voor je team alsjeblieft."
+
+#: clteams.team.create.inc:83
+msgid "The team @team has been created!"
+msgstr "Het team @team is aangemaakt!"
+
+#: clteams.team.delete.inc:16
+msgid "Delete team: @team"
+msgstr "Verwijder team: @team"
+
+#: clteams.team.delete.inc:22
+msgid "Are you sure you want to delete this team?"
+msgstr "Weet je zeker dat je dit team wilt verwijderen?"
+
+#: clteams.team.delete.inc:28 clteams.team.join.inc:27
+#: clteams.team.unjoin.inc:27
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: clteams.team.delete.inc:35 clteams.module:101
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: clteams.team.delete.inc:46
+msgid "The team has not been removed."
+msgstr "Het team is niet verwijderd."
+
+#: clteams.team.delete.inc:64
+msgid "The team has been deleted!"
+msgstr "Het team is verwijderd!"
+
+#: clteams.team.edit.inc:24
+msgid "Edit the team information."
+msgstr "Wijzig de teamgegevens."
+
+#: clteams.team.edit.inc:30
+msgid "The name of the team within this league."
+msgstr "De naam van het team in deze league."
+
+#: clteams.team.edit.inc:49
+msgid "Apply changes"
+msgstr "Toepassen"
+
+#: clteams.team.edit.inc:90
+msgid "The team @team has been edited!"
+msgstr "Het team @team is gewijzigd!"
+
+#: clteams.team.join.inc:15
+msgid "Join team: @team"
+msgstr "Stap in bij team: @team"
+
+#: clteams.team.join.inc:21
+msgid "Are you sure you want to join this team?"
+msgstr "Weet je zeker dat je bij dit team in wilt stappen?"
+
+#: clteams.team.join.inc:45
+msgid "You have not joined the team."
+msgstr "Je bent niet ingestapt bij het team."
+
+#: clteams.team.join.inc:69
+msgid "You have joined the team: @team!"
+msgstr "Je bent ingestapt bij team: @team!"
+
+#: clteams.team.unjoin.inc:15
+msgid "Unjoin team: @team"
+msgstr "Stap uit team: @team"
+
+#: clteams.team.unjoin.inc:21
+msgid "Are you sure you want to unjoin this team?"
+msgstr "Weet je zeker dat je uit dit team wilt stappen?"
+
+#: clteams.team.unjoin.inc:46
+msgid "You have not unjoined the team."
+msgstr "Je bent niet uit het team gestapt."
+
+#: clteams.team.unjoin.inc:71
+msgid "You are no longer playing with the team @team!"
+msgstr "Je speelt niet langer mee met het team @team!"
+
+#: clteams.team.view.inc:60
+msgid "Players"
+msgstr "Spelers"
+
+#: clteams.module:26
+msgid "Teams"
+msgstr "Teams"
+
+#: clteams.module:36
+msgid "Team assignment"
+msgstr "Teamindeling"
+
+#: clteams.module:46
+msgid "Create team"
+msgstr "Maak een nieuw team"
+
+#: clteams.module:71
+msgid "Edit"
+msgstr "Bewerken"
+
+#: clteams.info:0
+msgid "CL Teams"
+msgstr "CL Teams"
+
+#: clteams.info:0
+msgid "Add team support to Cityleagues"
+msgstr "Voeg team support toe aan Cityleagues"
+
+#: clteams.info:0
+msgid "Cityleague"
+msgstr "Cityleague"

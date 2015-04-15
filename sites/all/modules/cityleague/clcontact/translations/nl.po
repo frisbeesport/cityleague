@@ -1,0 +1,101 @@
+# $Id$
+#
+# Dutch translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  clcontact.general.inc: n/a
+#  clcontact.league.inc: n/a
+#  clcontact.module: n/a
+#  clcontact.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-04-06 21:59+0200\n"
+"PO-Revision-Date: 2014-04-06 22:02+0100\n"
+"Last-Translator: Ron van Kesteren <cityleague@frisbeesport.nl>\n"
+"Language-Team: Dutch <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: clcontact.general.inc:25
+msgid ""
+"We love to answer your questions about Cityleague. Send us your message and "
+"we will get back to you as soon as possible."
+msgstr ""
+"We beantwoorden graag al je vragen over Cityleague. Stuur ons een bericht en "
+"we reageren zo snel mogelijk."
+
+#: clcontact.general.inc:30 clcontact.league.inc:31
+msgid "We love to hear from you!"
+msgstr "We horen graag van je!"
+
+#: clcontact.general.inc:38
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: clcontact.general.inc:46 clcontact.league.inc:42
+msgid "Message"
+msgstr "Bericht"
+
+#: clcontact.general.inc:57 clcontact.league.inc:53
+msgid "Your email address"
+msgstr "Je emailadres"
+
+#: clcontact.general.inc:66 clcontact.league.inc:62
+msgid "Send"
+msgstr "Versturen"
+
+#: clcontact.general.inc:81 clcontact.league.inc:118
+msgid "Please enter a valid email address."
+msgstr "Vul alsjeblieft een geldig emailadres in."
+
+#: clcontact.general.inc:91 clcontact.league.inc:79
+msgid "An anonymous visitor says:"
+msgstr "Een anonieme bezoeker zegt:"
+
+#: clcontact.general.inc:95;98 clcontact.league.inc:83;86
+msgid "says:"
+msgstr "zegt:"
+
+#: clcontact.general.inc:118 clcontact.league.inc:103
+msgid "Whoosh! Thanks for your message."
+msgstr "Whoosh! Bedankt voor je bericht."
+
+#: clcontact.general.inc:122 clcontact.league.inc:107
+msgid "Whoosh! You will hear from us soon!"
+msgstr "Whoosh! Je hoort snel van ons!"
+
+#: clcontact.league.inc:27
+msgid ""
+"Whether you have a question or an experience with @league you want to share: "
+"we love to hear from you! Please send your message and we will get back to "
+"you as soon as possible."
+msgstr ""
+"Of je nu een vraag hebt of een ervaring met @league die je wilt delen: we "
+"horen graag van je! Stuur ons je bericht en we zullen zo snel mogelijk "
+"reageren."
+
+#: clcontact.module:69
+msgid "League contact form"
+msgstr "League contactformulier"
+
+#: clcontact.module:74
+msgid "General contact form"
+msgstr "Algemeen contactformulier"
+
+#: clcontact.info:0
+msgid "CL Contact"
+msgstr ""
+
+#: clcontact.info:0
+msgid "Add contact forms for Cityleague organizers and coordinators"
+msgstr ""
+"Voeg contactformulieren toe voor Cityleague organisaties en coordinatoren."
+
+#: clcontact.info:0
+msgid "Cityleague"
+msgstr "Cityleague"
